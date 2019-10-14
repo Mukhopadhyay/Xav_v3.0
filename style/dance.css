@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background-image: url('../images/background/back1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+
+/*Category Navigation Button*/
+
+.buttonHolder {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#btnCat {
+    background: rgba(0,0,0,.2);
+    padding: .5rem;
+    margin: .2rem;
+}
+
+
+.btnXY {
+    background: rgba(0,0,0,0);
+}
+
+.buttonHolder a {
+    color: #F0f0f0;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.buttonHolder a:hover {
+    text-decoration: none;
+    color: white;
+    transition-duration: .5s;
+}
+
+.icon-container {
+    margin-bottom: 2rem;
+}
+
+.dance-img {
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    transition-duration: .3s;
+}
+
+
+.dance-img:hover {
+    width: 17em;
+    transition-duration: .5s;
+}
+
+.container-text {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.duet-body-text, .satrang-body-text, .shuffle-body-text, .xpose-body-text, .nrityanatyam-body-text {
+    color: antiquewhite;
+    font-size: .8rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+}
+
+span:hover, li:hover {
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container-text {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .duet-body-text {
+        font-size: .6rem;
+        line-height: 1.2rem;
+    }
+}
+
+.satrang, .shuffle, .xpose, .nrityanatyam {
+    display: none;
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+/*
+
+    SECTION - 1
+
+*/
+
+.sec1 {
+    background-image: url('../images/background/back2.jpg');
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.splash-wrapper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+
+.main-heading {
+    font-family: 'Dancing Script';
+    font-size: 4.5rem;
+}
+
+.main-description {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.learnMoreButton {
+    font-family: 'Roboto';
+    color: black;
+    text-decoration: none;
+    padding: .6rem;
+    margin-top: 5rem;
+}
+
+.learnMoreButton:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* SOCIAL ICONS */
+
+.fa-facebook-official {
+    color: #3C5A99;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(240deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-pinterest-square {
+    color: #E60023;
+}
+
+.social-wrapper {
+    position: absolute;
+    top: 30%;
+    left: -4%;
+    font-size: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.social-wrapper a {
+    color: white;
+    margin: 4px;
+}
+
+.splash .social {
+    opacity: .6;
+}
+
+.social:hover {
+    transform: scale(2, 2);
+    transition-duration: .3s;
+    opacity: 1;
+}
+
+/*
+
+    SECTION - 2
+
+*/
+
+.sec2 {
+    background-image: url('../images/background/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container-timer {
+    color: #333;
+    text-align: center;
+}
+
+.time {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.time .ph {
+    display: block;
+    font-size: 2.5rem;
+}
+
+span {
+    background-color: white !important;
+}
+
+/*
+
+    SECTION - 3
+
+*/
+
+.sec3 {
+    background: black;
+}

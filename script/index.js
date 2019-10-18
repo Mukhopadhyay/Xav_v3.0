@@ -19,6 +19,12 @@ $(document).ready(function () {
             $(".navItems").animate({ opacity: "1" });
         }
     });
+
+    //Galary
+    $('.carousel').carousel({
+        interval: 3500
+    })
+
 });
 
 //Timer Logic
@@ -46,3 +52,4 @@ let countDown = new Date('Jan 22, 2020 00:00:00').getTime(),
         //}
 
     }, second)
+

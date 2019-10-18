@@ -8,14 +8,12 @@
     SECTION - 1
 
 */
-
 .sec1 {
     background-image: url('../images/background/back2.jpg');
     background-size: cover;
     background-origin: border-box;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
 }
 
 .splash-wrapper {
@@ -92,8 +90,8 @@
 
 .social-wrapper {
     position: absolute;
-    top: 30%;
-    left: -4%;
+    top: 0%;
+    left: -2%;
     font-size: 50px;
     width: 50px;
     padding: 10px;
@@ -113,6 +111,21 @@
     transform: scale(2, 2);
     transition-duration: .3s;
     opacity: 1;
+}
+
+/*Particle-JS canvas*/
+
+.sec1Wrapper {
+    color: white;
+    position: absolute;
+    margin-top: 10rem;
+    left: 0;
+    right: 0;
+}
+
+#particles-js {
+    
+    height: 100vh;
 }
 
 /*
@@ -159,4 +172,22 @@ span {
 
 .sec3 {
     background: black;
+}
+
+/*MEDIA QUERY*/
+
+/*MOBILE*/
+@media (max-width: 500px) {
+    .social-wrapper {
+        left: -4%;
+    }
+
+    /*Uncomment bottom portion to remove Particles*/
+
+    /* #particles-js {
+        display: none;
+    }
+    .sec1Wrapper {
+        margin-top: -12rem;
+    } */
 }

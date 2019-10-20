@@ -221,39 +221,11 @@ iframe {
 
 /*
 
-    SECTION - 4 (TEAM)
+    SECTION - 4
 
 */
 
-
-/*
-
-    SECTION - 5
-
-*/
-
-.sec5 {
-    background: black;
-}
-
-/*Galary*/
-
-.sec5 .carousel-inner {
-    margin: 5px solid black;
-    transition-duration: .5s;
-}
-
-.sec5 .carousel-inner:hover {
-    transform: scale(1.1);
-    transition-duration: .5s;
-}
-
-/*
-
-    SECTION - 6
-
-*/
-.sec6 {
+.sec4 {
     background: black;
 }
 

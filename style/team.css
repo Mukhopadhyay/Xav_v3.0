@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+
+body {
+    background: black;
+    color: white;
+}
+
+.teamWrapper {
+    margin-top: 5.5rem;
+}
+
+.hexa, .hexa div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.hexa {
+    width: 184px;
+    height: 130px;
+}
+
+.hexa div {
+    width: 100%;
+    height: 100%;
+}
+
+.hexa {
+    transform: rotate(120deg);
+}
+
+.hex1 {
+    transform: rotate(-60deg);
+}
+
+.hex2 {
+    transform: rotate(-60deg);
+}
+
+.hex2 img {
+    width: inherit;
+    transition-duration: .4s;
+}
+
+.hex2 img:hover {
+    opacity: 1;
+    transition-duration: .7s;
+    width: 80%;
+}
+
+.tClass {
+    font-size: 1rem;
+}
+
+.memberName {
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+/*MODAL OVERRIDE*/
+
+.modal-header {
+    background: gray;
+}
+
+.modal-body {
+    background: gray;
+}
+
+@media (max-width: 450px) {
+    /*Team page hex size*/
+    .hexa {
+        width: 134px;
+        height: 95px;
+    }
+    .sec4 .col-4 {
+        margin-bottom: 2rem;
+    }
+}
+
+/*NAVBAR OVERRIDE*/
+
+#nav-icon2 span {
+    background: white;
+}
+
+.sidenav {
+    background-color: rgb(211, 238, 113);
+}
+
+.sidenav a {
+    color: black;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+/*Social icon override*/
+.social {
+    font-size: 1.5rem;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.instagram {
+    color: #833AB4;
+}
+
+.linkedIn {
+    color: #2867B2;
+}

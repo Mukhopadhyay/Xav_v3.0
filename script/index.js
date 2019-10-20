@@ -19,7 +19,6 @@ $(document).ready(function () {
             $(".navItems").animate({ opacity: "1" });
         }
     });
-
     //Galary
     $('.carousel').carousel({
         interval: 3500

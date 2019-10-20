@@ -43,14 +43,13 @@ body {
 }
 
 #btnCat {
-    background: rgba(0,0,0,.2);
+    background: rgba(0, 0, 0, .2);
     padding: .5rem;
     margin: .2rem;
 }
 
-
 .btnXY {
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
 }
 
 .buttonHolder a {
@@ -69,7 +68,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.dance-img {
+/* .dance-img {
     width: 15rem;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
@@ -80,9 +79,105 @@ body {
 .dance-img:hover {
     width: 17em;
     transition-duration: .5s;
+} */
+
+/*Dance Icon*/
+
+@keyframes change {
+    0% {
+        opacity: 0;
+        margin-top: 15rem;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        /* opacity: 0.9; */
+    }
+}
+
+.circle-container {
+    margin-top: 3rem;
+    margin-bottom: 6rem!important;
+    /* margin-left: -3rem!important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    width: 30vh;
+    height: 30vh;
+    margin-left: -2.1rem!important;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: change;
+    animation-duration: 1.5s;
+}
+
+#one:before {
+    content: "X-Y";
+    margin-top: 1rem;
+    position: absolute;
+}
+
+#one {
+    background-image: linear-gradient(transparent, rgba(3, 3, 3, 0.486));
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* opacity: 0.8; */
+    /* font-weight: bold; */
+    transition: 1s;
+}
+
+#four {
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#five {
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#cc {
+    /* position: relative; */
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cc:hover #one {
+    /* text-shadow: 0px 10px 5px rgb(246, 245, 245); */
+    transform: rotateY(360deg);
+}
+
+#cc:hover #four {
+    background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.671), transparent);
+    margin-bottom: 5rem;
+    box-shadow: 0px 10px 10px black;
+    transform: translate(100px, 0px);
+}
+
+#cc:hover #five {
+    background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.671), transparent);
+    margin-bottom: 5rem;
+    box-shadow: 0px 10px 10px black;
+    transform: translate(-100px, 0px);
 }
 
 .container-text {
+    margin-top: 5rem;
     margin-left: 4rem;
     margin-right: 4rem;
 }
@@ -100,6 +195,23 @@ span:hover, li:hover {
     color: white;
 }
 
+.duet-dance {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .container-text {
         margin-left: 2rem;
@@ -109,8 +221,26 @@ span:hover, li:hover {
         font-size: .6rem;
         line-height: 1.2rem;
     }
+    .circle-container {
+        margin-left: -1rem!important;
+        margin-bottom: 7rem!important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .circle-container {
+        margin-left: -3rem;
+        margin-bottom: 10rem!important;
+    }
 }
 
 .satrang, .shuffle, .xpose, .nrityanatyam {
     display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

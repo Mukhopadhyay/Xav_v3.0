@@ -28,12 +28,16 @@
 /*LOGO CSS END*/
 
 body {
-    background: black;
+    background-image: linear-gradient(#ec008c, #fc6767);
     color: white;
 }
 
 .teamWrapper {
     margin-top: 5.5rem;
+}
+
+.text1 {
+    margin-bottom: 2.5rem;
 }
 
 .hexa, .hexa div {
@@ -82,20 +86,31 @@ body {
 }
 
 .memberName {
+    color: black;
     margin-top: .5rem;
     font-size: 1rem;
 }
-
+.mMobile {
+    color: black;
+}
 /*MODAL OVERRIDE*/
 
-.modal-header {
+/* .modal-header {
     background: gray;
 }
 
 .modal-body {
     background: gray;
+} */
+
+.modal-title {
+    color: black;
+}
+.close span {
+    color: black;
 }
 
+/*MOBILE*/
 @media (max-width: 450px) {
     /*Team page hex size*/
     .hexa {
@@ -104,6 +119,9 @@ body {
     }
     .sec4 .col-4 {
         margin-bottom: 2rem;
+    }
+    .social a {
+        opacity: 1;
     }
 }
 
@@ -130,6 +148,15 @@ body {
     font-size: 1.5rem;
 }
 
+.social a {
+    text-decoration: none;
+    opacity: .6;
+}
+.social a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
 .facebook {
     color: #3b5998;
 }
@@ -140,4 +167,22 @@ body {
 
 .linkedIn {
     color: #2867B2;
+}
+
+/*Footer part*/
+
+footer {
+    background-image: linear-gradient(to top, #ffe259, #ffa751, rgba(255,255,255,0.0));
+    width: inherit;
+    height: 200px;
+}
+.footerWrapper {
+    margin-top: 3rem;
+}
+.name {
+    font-family: 'Dancing Script';
+}
+.logo {
+    width: 150px;
+    align-content: center;
 }

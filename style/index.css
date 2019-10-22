@@ -10,7 +10,8 @@
 */
 
 .sec1 {
-    background-image: url('../images/background/back2.jpg');
+    /* background-image: url(https://www.thedenverear.com/wp-content/uploads/2018/05/shutterstock_554109856.jpg); */
+    background-image: url('../images/Cover-Back-Blur.jpg');
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -48,51 +49,122 @@
 
 .main-heading {
     font-family: 'Dancing Script';
+    position: absolute;
+    left: 40%;
+    margin-top: -9rem;
     font-size: 4.5rem;
+    transition: 1s;
+    animation-name: change;
+    animation-duration: 1.5s;
 }
 
+.main-heading h1:hover
+{
+    text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
+}
+
+@keyframes change
+{
+    0%
+    {
+        opacity: 0;
+        margin-top: 15rem;
+        /* font-size: 1rem; */
+    }
+    50%
+    {
+        opacity:1;
+        text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
+    }
+    100%
+    {
+        opacity:1
+        text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
+    }
+}
+
+
 .main-description {
-    margin-top: 2rem;
+    margin-top: 10rem;
     font-size: 1.3rem;
+    animation-name: spaceIn;
+    animation-duration: 5s;
+}
+
+@keyframes spaceIn
+{
+    0%
+    {
+        opacity:0;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity:1;
+    }
 }
 
 .learnMoreButton {
     font-family: 'Roboto';
-    color: black;
+    /* color: black; */
     text-decoration: none;
-    padding: .6rem;
-    margin-top: 5rem;
+    padding: 0.6rem;
+    width: 12rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    margin-top: 10rem;
+    border-radius: 40px 40px 40px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    animation-name: spaceIn;
+    animation-duration: 3s;
+    
 }
 
 .learnMoreButton:hover {
+    border-radius: 0px 0px 0px;
     text-decoration: none;
-    color: white;
+    text-shadow: none;
+    /* color: white; */
+    color: black;
 }
 
 /* SOCIAL ICONS */
 
 .fa-facebook-official {
-    color: #3C5A99;
+    /* color: #3C5A99; */
+    background-image : linear-gradient(to left,#f1f335,transparent);
+    transition: 0.5s;
 }
 
 .fa-twitter-square {
-    color: #1DA1F2;
+    /* color: #1DA1F2; */
+    background-image : linear-gradient(to left,#f1f335,transparent);
+    transition: 0.5s;
 }
 
 .fa-instagram {
-    background: -webkit-linear-gradient(240deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    /* background: -webkit-linear-gradient(240deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); */
+    background-image : linear-gradient(to left,#f1f335,transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.5s;
 }
 
 .fa-pinterest-square {
-    color: #E60023;
+    /* color: #E60023; */
+    background-image : linear-gradient(to left,#f1f335,transparent);
+    transition: 0.5s;
 }
 
 .social-wrapper {
     position: absolute;
     top: 0%;
-    left: -2%;
+    left: 2%;
     font-size: 50px;
     width: 50px;
     padding: 10px;
@@ -109,8 +181,9 @@
 }
 
 .social:hover {
-    transform: scale(2, 2);
-    transition-duration: .3s;
+    transform: scale(2, 2) ;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
     opacity: 1;
 }
 
@@ -124,6 +197,41 @@
     right: 0;
 }
 
+.dateXavotsav
+{
+    background-image: url('../images/png/date.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 15rem;
+    right: 0;
+    bottom: 0;
+    animation-name: fadeInOut;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut
+{
+    10%
+    {
+        opacity:0;
+    }
+    35%
+    {
+        opacity:1;
+    }
+    80%
+    {
+        opacity:0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 #particles-js {
     height: 100vh;
 }
@@ -135,7 +243,7 @@
 */
 
 .sec2 {
-    background-image: url('../images/background/back3.jpg');
+    background-image: url('../images/background/back2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -145,6 +253,26 @@
 .textWrapper2 {
     margin-left: 3rem;
     margin-right: 3rem;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow
+{
+    0%
+    {
+        text-shadow: none;
+    }
+    50%
+    {
+        text-shadow: 0px 0px 5px white;
+    }
+    
+    100%
+    {
+        text-shadow: 0px 0px 5px white;
+    }
 }
 
 .container-timer {
@@ -159,7 +287,8 @@
 }
 
 .time {
-    color: black;
+    margin-top: 0.5rem;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     display: inline-block;
     font-size: 1em;
@@ -172,7 +301,18 @@
     color: white;
     display: block;
     font-size: 3rem;
+    width: 6.6rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.493);
+    
 }
+
+.container-timer
+{
+    box-shadow: 10px 10px 10px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
+}
+
 
 .sec2 span {
     background-color: white !important;
@@ -219,6 +359,16 @@ iframe {
     text-decoration: none;
 }
 
+.eventWrapper
+{
+    margin-left:30rem;
+}
+
+.xavotsavSchedule .xavotsavXtacy
+{
+    margin: 5rem;
+}
+
 /*
 
     SECTION - 4
@@ -250,8 +400,28 @@ iframe {
         display: inherit;
     }
     .social-wrapper {
-        left: -4%;
+        display: inline;
+        /* left: -4%; */
     }
+
+    .main-description {
+        margin-left: 4rem;
+        text-align: right;
+        font-size: 1.3rem;
+        animation-name: spaceIn;
+        animation-duration: 5s;
+    }
+
+    .main-heading
+    {
+        margin-left: -2rem;
+    }
+
+    .learnMoreButton 
+    {
+        margin-top: 5rem;
+    }
+
     /*Uncomment bottom portion to remove Particles*/
     /* #particles-js {
         display: none;

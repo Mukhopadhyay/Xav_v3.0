@@ -125,6 +125,17 @@ body {
     position: absolute;
 }
 
+.satrang #one:before
+{
+    content: "SATRANG";
+    
+}
+
+.satrang #one
+{
+    font-size: 30px;
+}
+
 #one {
     background-image: linear-gradient(transparent, rgba(3, 3, 3, 0.486));
     font-size: 50px;

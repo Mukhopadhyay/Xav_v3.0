@@ -47,6 +47,8 @@
 
 /*LOGO CSS END*/
 
+/*Xavotsav heading*/
+
 .main-heading {
     font-family: 'Dancing Script';
     position: absolute;
@@ -58,10 +60,6 @@
     animation-duration: 1.5s;
 }
 
-.main-heading h1:hover {
-    text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
-}
-
 @keyframes change {
     0% {
         opacity: 0;
@@ -70,18 +68,23 @@
     }
     50% {
         opacity: 1;
-        text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
     }
     100% {
-        opacity: 1 text-shadow: 0px 0px 6px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
+        opacity: 1 ;
     }
 }
+
+/*End of Xavotsav heading*/
+
+/*Xavotsav Info*/
 
 .main-description {
     margin-top: 10rem;
     font-size: 1.3rem;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
     animation-name: spaceIn;
     animation-duration: 5s;
+
 }
 
 @keyframes spaceIn {
@@ -95,6 +98,10 @@
         opacity: 1;
     }
 }
+
+/*End of Xavotsav Info*/
+
+/*Custom Button*/
 
 .learnMoreButton {
     font-family: 'Roboto';
@@ -114,12 +121,17 @@
 }
 
 .learnMoreButton:hover {
-    border-radius: 0px 0px 0px;
     text-decoration: none;
-    text-shadow: none;
+    border-radius: 0px;
+    letter-spacing: 0.2rem;
+    transform: scale(1.3,1.3);
+    text-shadow: 0px 0px 0px black;
+    
     /* color: white; */
-    color: black;
+    /* color: black; */
 }
+
+/*End of Custom Button*/
 
 /* SOCIAL ICONS */
 
@@ -175,7 +187,9 @@
     opacity: 1;
 }
 
-/*Particle-JS canvas*/
+/*END OF SOCIAL ICON*/
+
+/*Section 1 margin*/
 
 .sec1Wrapper {
     color: white;
@@ -184,6 +198,10 @@
     left: 0;
     right: 0;
 }
+
+/*End of Section 1 margin*/
+
+/*Date*/
 
 .dateXavotsav {
     background-image: url('../images/png/date.png');
@@ -221,9 +239,19 @@
     }
 }
 
+/*End of Date*/
+
+
+/*Particle-JS canvas*/
+
 #particles-js {
     height: 100vh;
 }
+
+/*End of Particle-JS canvas*/
+
+/*END OF SECTION 1*/
+
 
 /*
 
@@ -232,43 +260,47 @@
 */
 
 .sec2 {
-    background-image: url('../images/background/back2.jpg');
+    /* background-image: url('../images/background/back1.jpg'); */
+    /* background-image: url('https://media.playstation.com/is/image/SCEA/firewatch-screen-11-us-15jun15?$MediaCarousel_Original$'); */
+    /* background-image: url(https://images.unsplash.com/photo-1497359855202-2a0c6b913324?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1407&q=80); */
+    /* background-image: url('https://images.unsplash.com/photo-1473958675193-405a3c163875?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); */
+    /* background-image: url('https://images.pexels.com/photos/1175136/pexels-photo-1175136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: cover;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
+
+/*Section 2 info*/
 
 .textWrapper2 {
     margin-left: 3rem;
     margin-right: 3rem;
-    animation-name: glow;
+    margin-bottom: 2rem;
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
+    /* animation-name: glow;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
-@keyframes glow {
-    0% {
-        text-shadow: none;
-    }
-    50% {
-        text-shadow: 0px 0px 5px white;
-    }
-    100% {
-        text-shadow: 0px 0px 5px white;
-    }
-}
+/*END OF SECTION 2 INFO*/
+
+/*Timer*/
 
 .container-timer {
     color: #333;
     text-align: center;
 }
 
-.redSpan {
+/*End of Timer*/
+
+/* .redSpan {
     background: rgba(0, 0, 0, 0) !important;
     color: black;
     font-weight: bold;
-}
+} */
 
 .time {
     margin-top: 0.5rem;
@@ -288,7 +320,23 @@
     width: 6.6rem;
     padding: 1rem;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.493);
+    /* background-color: rgba(0, 0, 0, 0.493); */
+    background-image: radial-gradient(transparent,black);
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.924);
+    }
+    50% {
+        box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.966);
+    }
+    100% {
+        box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.966);
+    }
 }
 
 .container-timer {
@@ -297,6 +345,13 @@
 
 .sec2 span {
     background-color: white !important;
+}
+
+.day-hour-min-sec
+{
+    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
 }
 
 iframe {
@@ -401,6 +456,11 @@ iframe {
     .learnMoreButton {
         margin-top: 5rem;
     }
+    /* .dateXavotsav
+    {
+        background-image: url('../images/png/datemob.png');
+        left: 25%;
+    } */
     /*Uncomment bottom portion to remove Particles*/
     /* #particles-js {
         display: none;

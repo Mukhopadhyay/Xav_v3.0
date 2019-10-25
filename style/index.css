@@ -375,7 +375,8 @@ iframe {
 */
 
 .sec3 {
-    background-image: url('../images/background/back1.jpg');
+    /* background-image: url('../images/background/back1.jpg'); */
+    background-color: rgba(3, 28, 58, 0.829);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -472,6 +473,11 @@ iframe {
 
 /*ANIMATED CAROUSEL EVENT*/
 
+.sectionName
+{
+    color: white;
+}
+
 .icon-cards {
     position: relative;
     width: 60vw;
@@ -496,13 +502,15 @@ iframe {
     transform-style: preserve-3d;
     -webkit-transform: translateZ(-30vw) rotateY(0);
     transform: translateZ(-30vw) rotateY(0);
-    -webkit-animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
-    animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    border-radius: 50%;
+    -webkit-animation: carousel 18s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    animation: carousel 18s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
 
 .icon-cards__content.step-animation {
-    -webkit-animation: carousel 8s infinite steps(1) forwards;
-    animation: carousel 8s infinite steps(1) forwards;
+    
+    -webkit-animation: carousel 25s infinite steps(1) forwards;
+    animation: carousel 25s infinite steps(1) forwards;
 }
 
 .icon-cards__item {
@@ -514,10 +522,11 @@ iframe {
     height: 40vw;
     max-width: 380px;
     max-height: 250px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 200px rgba(255, 251, 251, 0.486);
     border-radius: 6px;
     -webkit-transform-origin: center;
     transform-origin: center;
+    
 }
 
 .icon-cards__item:nth-child(1) {
@@ -547,6 +556,11 @@ iframe {
     transform: rotateY(240deg) translateZ(35vw);
 }
 
+.icon-cards_item:hover
+{
+    transform: scale(2,2)!important;
+}
+
 .cards {
     margin-top: -5rem;
     display: flex;
@@ -557,6 +571,7 @@ iframe {
     0%, 17.5% {
         -webkit-transform: translateZ(-35vw) rotateY(0);
         transform: translateZ(-35vw) rotateY(0);
+        box-shadow: 0px 0px 10px white;
     }
     27.5%, 45% {
         -webkit-transform: translateZ(-35vw) rotateY(-120deg);
@@ -576,18 +591,72 @@ iframe {
     0%, 17.5% {
         -webkit-transform: translateZ(-35vw) rotateY(0);
         transform: translateZ(-35vw) rotateY(0);
+        /* background-image: conic-gradient(white,transparent,transparent,white); */
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
+    
+    17.5%
+    {
+        -webkit-transform: translateZ(-35vw) rotateX(10deg);
+        transform: translateZ(-35vw) rotateX(10deg);
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+
     27.5%, 45% {
         -webkit-transform: translateZ(-35vw) rotateY(-120deg);
         transform: translateZ(-35vw) rotateY(-120deg);
+        /* background-image: conic-gradient(white,transparent,transparent,white); */
+        background-image: url('../images/logo.png');
+        
     }
+
+    45%
+    {
+        -webkit-transform: translateZ(-35vw) rotateX(-10deg);
+        transform: translateZ(-35vw) rotateX(-10deg);
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+
     55%, 72.5% {
         -webkit-transform: translateZ(-35vw) rotateY(-240deg);
         transform: translateZ(-35vw) rotateY(-240deg);
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
     }
+
+    72.5%
+    {
+        -webkit-transform: translateZ(-35vw) rotateX(10deg);
+        transform: translateZ(-35vw) rotateX(10deg);
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+
     82.5%, 100% {
         -webkit-transform: translateZ(-35vw) rotateY(-360deg);
         transform: translateZ(-35vw) rotateY(-360deg);
+        background-image: url('../images/logo.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
     }
 }
 
@@ -599,6 +668,7 @@ iframe {
     30% {
         -webkit-transform: scale(1.25, 0.75);
         transform: scale(1.25, 0.75);
+        
     }
     40% {
         -webkit-transform: scale(0.75, 1.25);
@@ -630,6 +700,7 @@ iframe {
     30% {
         -webkit-transform: scale(1.25, 0.75);
         transform: scale(1.25, 0.75);
+
     }
     40% {
         -webkit-transform: scale(0.75, 1.25);

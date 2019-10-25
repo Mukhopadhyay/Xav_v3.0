@@ -28,7 +28,11 @@
 /*LOGO CSS END*/
 
 body {
-    background-image: linear-gradient(#ec008c, #fc6767);
+    /* background-image: linear-gradient(#ec008c, #fc6767); */
+    background-image: url('../images/Cover-Back-Blur.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -172,7 +176,7 @@ body {
 /*Footer part*/
 
 footer {
-    background-image: linear-gradient(to top, #ffe259, #ffa751, rgba(255,255,255,0.0));
+    background-image: linear-gradient(to top, #ffe35941, #ffa85159, rgba(255,255,255,0.0));
     width: inherit;
     height: 200px;
 }

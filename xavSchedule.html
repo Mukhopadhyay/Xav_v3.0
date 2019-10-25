@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xavotsav 2020 - Schedule</title>
+
+    <link rel="icon" href="./images/logo.png">
+
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <!--FontAwesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <!--Custom CSS-->
+    <script src="./script/index.js"></script>
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/xavSchedule.css">
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="./style/animate.css">
+
+    <script src="./script/schedule.js"></script>
+
+</head>
+
+<body id="body">
+    <!--Navigation Bar-->
+    <div class="navWrapper">
+        <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <div class="navItems">
+
+        <div id="mySidenav" class="sidenav" id="nav">
+            <a href="./index.html">Home</a>
+            <a href="#">About</a>
+            <a href="./events.html">Event Details</a>
+            <a href="#">Colleges</a>
+            <a href="#">Sponsors</a>
+            <a href="#">Star Night</a>
+            <a href="./team.html">Team</a>
+            <a href="./pastlineup.html">Past Line-Up</a>
+            <a href="#">Result</a>
+        </div>
+
+    </div>
+
+    <!--End of Navigation Bar-->
+
+    <!--Logo Band-->
+    <a href="./index.html" class="logoLink" title="Xavotsav 2020">
+        <img src="./images/logo.png" class="xavLogo">
+        <h1 class="logoText">Xavotsav</h1>
+    </a>
+    <!--End of Logo-->
+
+    <div id="wrapper">
+
+        <div class="eventButtonDiv text-center">
+            <h4>Check out our events!</h4>
+            <!--Event Page link-->
+            <button type="button" class="animated bounce btn btn-outline-light customButton btnEvent"
+                onclick="window.location.href='./events.html'">Events</button>
+
+        </div>
+
+        <!--SOCIAL LINKS-->
+        <div class="social-wrapper">
+            <a href="#"><i class="fa fa-facebook-official social" aria-hidden="true"></i></a>
+            <br>
+            <a href="#"><i class="fa fa-twitter-square social" aria-hidden="true"></i></a>
+            <br>
+            <a href="#"><i class="fa fa-instagram social" aria-hidden="true"></i></a>
+            <br>
+            <a href="#"><i class="fa fa-pinterest-square social" aria-hidden="true"></i></a>
+        </div>
+
+        <!--Schedule Part starts-->
+        <div class="images text-center">
+            <img src="./images/schedule/xavDay1.jpeg" class="scheduleImage schedule1" id='sch1'>
+            <img src="./images/schedule/xavDay2.jpeg" class="scheduleImage schedule2">
+            <img src="./images/schedule/xavDay3.jpeg" class="scheduleImage schedule3">
+        </div>
+    </div>
+
+    <div class="hover-btn-up">
+        <button class="btn animated bounce btn-outlint-primary btn-up" onclick="window.location.href='#wrapper'">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
+    </div>
+
+</body>
+
+</html>

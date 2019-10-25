@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/navbar.css">
     <script src="./script/index.js"></script>
+    <script src="./script/timer.js"></script>
 
 
 
@@ -108,12 +109,12 @@
                 <div class="splashText splash-wrapper text-center">
                     <h1 class="main-heading text-center">Xavotsav</h1>
                     <h5 class="main-description text-center">
-                        XAVOTSAV is the annual cultural extravaganza organized by the St. Xavier's Colelge Student's
+                        XAVOTSAV is the annual cultural extravaganza organized by the St. Xavier's College Student's
                         Council.
                     </h5>
 
                     <!-- <a href="#" class="hvr-rectangle-in learnMoreButton">Learn More</a> -->
-                    <button type="button" class="btn btn-outline-light learnMoreButton">LEARN MORE</button>
+                    <button type="button" class="btn btn-outline-light customButton">LEARN MORE</button>
                 </div>
             </div>
 
@@ -137,7 +138,7 @@
                     <!-- <h5>We aim to create and enter <span class="redSpan">newer avenues of excellence</span> with <span
                             class="redSpan">'XAVOTSAV 2020'</span> to be held on the <span class="redSpan">22nd, 23rd
                             and 24th of January, 2020</span>.</h5> -->
-                    <h3>We aim to create and enter newer avenues of excellence with 'XAVOTSAV 2020' to be held on the
+                    <h3 class="ourAim">We aim to create and enter newer avenues of excellence with 'XAVOTSAV 2020' to be held on the
                         22nd, 23rd
                         and 24th of January, 2020 </h3>
                 </div>
@@ -146,19 +147,23 @@
                     <ul>
                         <li class="time">
                             <div id="days" class="ph"></div>
-                            <br><p class="day-hour-min-sec">Days</p>
+                            <br>
+                            <p class="day-hour-min-sec">Days</p>
                         </li>
                         <li class="time">
                             <div id="hours" class="ph"></div>
-                            <br><p class="day-hour-min-sec">Hours</p>
+                            <br>
+                            <p class="day-hour-min-sec">Hours</p>
                         </li>
                         <li class="time">
                             <div id="minutes" class="ph"></div>
-                            <br><p class="day-hour-min-sec">Minutes</p>
+                            <br>
+                            <p class="day-hour-min-sec">Minutes</p>
                         </li>
                         <li class="time">
                             <div id="seconds" class="ph"></div>
-                            <br><p class="day-hour-min-sec">Seconds</p>
+                            <br>
+                            <p class="day-hour-min-sec">Seconds</p>
                         </li>
                     </ul>
                 </div>
@@ -166,7 +171,7 @@
 
             <!--End of Section 2-->
 
-            
+
             <!--About Us-->
             <div class="slide">
                 <div class="container">
@@ -183,7 +188,7 @@
                         23rd and 24th of January, 2019. XAVOTSAV is the annual cultural extravaganza organized by the
                         St. Xavier’s College Students’ Council...
                     </p>
-                    <a href="#" class="hvr-bounce-to-right eventBtn">Read More..</a>
+                    <a href="#" class="hvr-bounce-to-right customButton readMoreButton">Read More..</a>
                 </div>
             </div>
 
@@ -193,7 +198,10 @@
         <div class="section sec3">
 
             <div class="sectionHeader text-center">
-                <h3 class="sectionName">Events</h3>
+                <div class="container">
+                    <h3 class="sectionName">Events</h3>
+                    <p class="eventDesc">The Events are what makes this Xavotsav</p>
+                </div>
             </div>
 
             <!--Auto rotate carousel-->
@@ -202,7 +210,8 @@
             <div class="text-center cards">
                 <figure class="icon-cards mt-3">
                     <div class="icon-cards__content">
-                        <div class="icon-cards__item d-flex align-items-center justify-content-center" onclick="window.location = 'http://google.com'">
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center"
+                            onclick="window.location = './events.html'">
                         </div>
                         <div class="icon-cards__item d-flex align-items-center justify-content-center">
                         </div>
@@ -212,12 +221,16 @@
                 </figure>
             </div>
 
-            <!-- <div class="eventButtonDiv text-center">
-                <button type="button" class="btn btn-outline-light eventButton">Xavotsav Schedule</button><br />
+            <div class="eventButtonDiv text-center">
+                <button type="button" class="btn btn-outline-light eventButton" onclick="window.location.href='./xavSchedule.html'">Xavotsav Schedule</button><br />
                 <button type="button" class="btn btn-outline-light eventButton">Extacy Inter College</button><br />
                 <button type="button" class="btn btn-outline-light eventButton">Extacy Intra College</button>
+            </div>
 
-            </div> -->
+            <div class="contactUs">
+                <button type="button" class="btn btn-outline-light eventButton">Contact Us</button>
+            </div>
+
         </div>
 
         <!--Sponsors-->

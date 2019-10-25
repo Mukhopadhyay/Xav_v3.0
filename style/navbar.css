@@ -142,3 +142,7 @@
     opacity: 0;
     width: 0;
 }
+
+#mySidenav {
+    display: none;
+}

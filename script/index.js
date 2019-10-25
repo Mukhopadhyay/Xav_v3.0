@@ -7,6 +7,8 @@ $(document).ready(function () {
 
             console.log('closed');
             boolNav = false;
+
+            $('#mySidenav').css('display', 'none');
             $(".navItems").animate({ opacity: "0" }, 500);
             $('.navItems').css('visibility', 'hidden');
 
@@ -15,7 +17,9 @@ $(document).ready(function () {
             //if closed
             console.log('opened!');
             boolNav = true;
+
             $('.navItems').css('visibility', 'visible');
+            $('#mySidenav').css('display', 'inherit');
             $(".navItems").animate({ opacity: "1" });
         }
     });
@@ -25,30 +29,4 @@ $(document).ready(function () {
     })
 
 });
-
-//Timer Logic
-
-const second = 1000,
-    minute = second * 60,
-    hour = minute * 60,
-    day = hour * 24;
-
-let countDown = new Date('Jan 22, 2020 00:00:00').getTime(),
-    x = setInterval(function () {
-
-        let now = new Date().getTime(),
-            distance = countDown - now;
-
-        document.getElementById('days').innerText = Math.floor(distance / (day)),
-            document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-            document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-            document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        //if (distance < 0) {
-        //  clearInterval(x);
-        //  'IT'S MY BIRTHDAY!;
-        //}
-
-    }, second)
 

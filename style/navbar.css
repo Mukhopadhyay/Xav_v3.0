@@ -146,3 +146,17 @@
 #mySidenav {
     display: none;
 }
+
+/*Loader style*/
+
+#loader {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 99999;
+    position: fixed;
+    background-image: url('../images/loader.gif');
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

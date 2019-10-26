@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     let boolNav = false;
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
         $(this).toggleClass('open');
@@ -27,6 +28,13 @@ $(document).ready(function () {
     $('.carousel').carousel({
         interval: 3500
     })
-
 });
 
+function loaderFunction() {
+    $('#loader').animate({
+        opacity: 0
+    }, 1000, function () {
+        console.log('loader removed!');
+        $('#loader').css('display', 'none');
+    })
+}

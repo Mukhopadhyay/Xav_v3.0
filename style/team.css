@@ -3,6 +3,10 @@
     font-family: 'Roboto';
 }
 
+body {
+    width: 100%;
+}
+
 /*LOGO CSS*/
 
 .logoLink {
@@ -26,15 +30,6 @@
 }
 
 /*LOGO CSS END*/
-
-body {
-    /* background-image: linear-gradient(#ec008c, #fc6767); */
-    background-image: url('../images/Cover-Back-Blur.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-}
 
 .teamWrapper {
     margin-top: 5.5rem;
@@ -86,7 +81,7 @@ body {
 }
 
 .tClass {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .memberName {
@@ -189,4 +184,18 @@ footer {
 .logo {
     width: 150px;
     align-content: center;
+}
+
+/*Navigation icon override*/
+
+.logoText {
+    color: black;
+}
+
+#nav-icon2 span {
+    background: black;
+}
+
+.body-wrapper {
+    margin-top: 5rem;
 }

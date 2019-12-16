@@ -129,59 +129,58 @@
     /* color: black; */
 }
 
+.sec1 .contactUs
+{
+    position: absolute;
+    left: 50px;
+    bottom: -15%;
+}
+
+@media (max-width: 750px)
+{
+    .sec1 .contactUs
+    {
+        left: 25px;
+        bottom: -90px;
+        width: 8rem;
+        font-size: 15px;
+    }
+}
+
 /*End of Custom Button*/
 
 /* SOCIAL ICONS */
 
-.fa-facebook-official {
-    /* color: #3C5A99; */
-    background-image: linear-gradient(to left, #f1f335, transparent);
-    transition: 0.5s;
-}
-
-.fa-twitter-square {
-    /* color: #1DA1F2; */
-    background-image: linear-gradient(to left, #f1f335, transparent);
-    transition: 0.5s;
-}
-
-.fa-instagram {
-    /* background: -webkit-linear-gradient(240deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); */
+.fa-facebook-f, .fa-twitter , .fa-instagram {
     background-image: linear-gradient(to left, #f1f335, transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s;
 }
 
-.fa-pinterest-square {
-    /* color: #E60023; */
-    background-image: linear-gradient(to left, #f1f335, transparent);
-    transition: 0.5s;
-}
-
 .social-wrapper {
     position: absolute;
-    top: 0%;
+    top: 10%;
     left: 2%;
     font-size: 50px;
     width: 50px;
-    padding: 10px;
     border-radius: 30px;
 }
 
 .social-wrapper a {
-    color: white;
-    margin: 4px;
+    margin: 10px;
+    padding: 2rem;
+    padding-bottom: 3rem;
 }
 
 .splash .social {
     opacity: .6;
 }
 
-.social:hover {
-    transform: scale(2, 2);
-    transition-duration: 1s;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+.social-wrapper a:hover {
+    
+    font-size: 60px;
+    transition-duration: 0.8s;
     opacity: 1;
 }
 
@@ -202,7 +201,7 @@
 /*Date*/
 
 .dateXavotsav {
-    background-image: url('../images/png/date.png');
+    background-image: url('../images/png/datebig.png');
     position: absolute;
     background-repeat: no-repeat;
     /*Default*/
@@ -234,6 +233,18 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 750px)
+{
+    .dateXavotsav
+    {
+        background-image: url('../images/png/Date.png');
+        right: -90px;
+        bottom: -30px;
+    }
+
+}
+
 
 /*End of Date*/
 
@@ -402,24 +413,26 @@
 
 .eventButtonDiv {
     position: absolute;
-    left: -10px;
-    top: 70%;
+    left: 2%;
+    top: 38%;
     bottom: 50%;
     margin-top: 1rem;
     z-index: 1;
 }
 
-.sec3 .contactUs {
+.sec3 .contactUs .eventButton {
     position: absolute;
-    right: 20px;
+    right: 30px;
     bottom: 20px;
+    width: 10rem;
 }
 
 .eventButton {
     margin-top: 1rem;
     text-decoration: none;
-    padding: 0.6rem;
-    font-size: 10px;
+    padding: 0.8rem;
+    width: 14rem;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.15rem;
     border-radius: 40px 40px 40px;

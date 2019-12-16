@@ -129,17 +129,14 @@
     /* color: black; */
 }
 
-.sec1 .contactUs
-{
+.sec1 .contactUs {
     position: absolute;
     left: 50px;
     bottom: -15%;
 }
 
-@media (max-width: 750px)
-{
-    .sec1 .contactUs
-    {
+@media (max-width: 750px) {
+    .sec1 .contactUs {
         left: 25px;
         bottom: -90px;
         width: 8rem;
@@ -151,7 +148,7 @@
 
 /* SOCIAL ICONS */
 
-.fa-facebook-f, .fa-twitter , .fa-instagram {
+.fa-facebook-f, .fa-twitter, .fa-instagram {
     background-image: linear-gradient(to left, #f1f335, transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -178,7 +175,6 @@
 }
 
 .social-wrapper a:hover {
-    
     font-size: 60px;
     transition-duration: 0.8s;
     opacity: 1;
@@ -234,17 +230,13 @@
     }
 }
 
-@media (max-width: 750px)
-{
-    .dateXavotsav
-    {
+@media (max-width: 750px) {
+    .dateXavotsav {
         background-image: url('../images/png/Date.png');
         right: -90px;
         bottom: -30px;
     }
-
 }
-
 
 /*End of Date*/
 
@@ -270,7 +262,7 @@
     /* background-image: url(https://images.unsplash.com/photo-1497359855202-2a0c6b913324?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1407&q=80); */
     /* background-image: url('https://images.unsplash.com/photo-1473958675193-405a3c163875?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); */
     /* background-image: url('https://images.pexels.com/photos/1175136/pexels-photo-1175136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
-    background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../images/background/back4.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: cover;
@@ -477,7 +469,7 @@
     .desktopAbout {
         display: none;
     }
-    iframe {
+    .iframeCustom {
         display: inherit;
     }
     .social-wrapper {
@@ -754,8 +746,18 @@
 }
 
 .secParadise {
+    text-align: justify;
     background-image: url("../images/background/back2.jpg");
     background-size: cover;
+}
+
+.secAfterMovie {
+    text-align: justify;
+    font-size: .8rem;
+}
+
+.secAfterMovie h3 {
+    margin-bottom: 5rem;
 }
 
 /*Play Button*/
@@ -816,4 +818,108 @@
 .playBut:hover .circle {
     stroke-dashoffset: 0;
     opacity: 1;
+}
+
+/*Calendar CSS*/
+
+.calendar {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar__picture {
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    color: #fff;
+    background: #262626 url("../images/background/back1darker.jpg") no-repeat center/cover;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.calendar__picture::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
+}
+
+.calendar__picture h2 {
+    margin: 0;
+}
+
+.calendar__picture h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.calendar__date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.calendar__day:nth-child(7) {
+    color: #ff685d;
+}
+
+.calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+}
+
+.calendar__number:nth-child(7n) {
+    color: #ff685d;
+    font-weight: 700;
+}
+
+.calendar__number--current, .calendar__number:hover {
+    background-color: #009688;
+    color: #fff !important;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.calIntro {
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 15%;
+}
+
+.secCalendar {
+    background: url('../images/background/back1darker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.secCalendar::before {
+    content: "";
+    background: inherit;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
 }

@@ -3,8 +3,12 @@
     font-family: 'Roboto';
 }
 
+html {
+    overflow-y: auto;
+}
+
 body {
-    background-image: url('../images/background/back1.jpg');
+    background-image: url('../images/background/back1darker.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -254,4 +258,13 @@ span:hover, li:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/*Loader alignment*/
+#loader {
+    margin-top: -5rem;
+}
+
+.main-texts {
+    text-align: justify;
 }

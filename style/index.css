@@ -175,8 +175,13 @@
 }
 
 .social-wrapper a:hover {
-    font-size: 60px;
     transition-duration: 0.8s;
+    opacity: 1;
+}
+
+.social:hover {
+    transform: scale(2, 2);
+    transition-duration: .2s;
     opacity: 1;
 }
 

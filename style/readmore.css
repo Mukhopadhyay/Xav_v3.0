@@ -9,7 +9,11 @@ html {
 }
 
 body {
-    background: gray;
+    background-image: url("../images/background/back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .text-wrapper {
@@ -19,7 +23,7 @@ body {
 /*LOGO CSS*/
 
 .logoLink {
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
     z-index: 99;
@@ -31,7 +35,7 @@ body {
 
 .logoText {
     font-family: 'Dancing Script';
-    color: black;
+    color: white;
     font-size: 2rem;
     position: absolute;
     top: 0px;
@@ -172,4 +176,51 @@ body {
     .right {
         left: 0%;
     }
+}
+
+/*Loader position fix*/
+
+#loader {
+    margin-top: -5rem;
+}
+
+.navWrapper {
+    position: fixed !important;
+}
+
+.content p {
+    font-size: .7rem;
+}
+
+.content h5+p {
+    opacity: .5;
+}
+
+.content:hover {
+    background-color: #303030;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
+    transition-duration: .7s;
+}
+
+/*Floating button css*/
+
+.float {
+    color: black;
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 40px;
+    right: 40px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.float:hover {
+    color: black;
+}
+
+.my-float {
+    margin-top: 22px;
 }

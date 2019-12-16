@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.result-container {
+    margin-top: 15rem;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+#loader {
+    margin-top: -10rem;
+}

@@ -81,24 +81,67 @@ body {
     }
 }
 
-.partnership , .contactUs
-{
+.partnership , .contactUs {
+
     color: white;
-    margin-top: rem;
-    border-left: white;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.text-heading
+{
+    transition: 0.5s;
+}
+
+.text-heading:hover {
+
+    letter-spacing: 0.1rem;
 }
 
 .social-wrapper {
 
+    text-align: center;
     font-size: 2rem;
-    margin: 4rem;
+    margin-top: 4rem;
    
 }
 
 .social-wrapper i {
     color: white;
+    opacity: 0.6;
+    padding-top: 0.8rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     transition: 1s;
     animation-name: change;
     animation-duration: 3.5s;
+}
+
+.social-wrapper i:hover {
+
+    opacity: 1;
+    border-color: white!important;
+}
+
+
+.followUs
+{
+    font-size: 1rem;
+    text-align: center;
+    width: 10rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 20px 20px 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.followUs:hover
+{
+    color: white;
+    letter-spacing: 0.1rem;
+    background-color: transparent;
+    box-shadow: white;
+    
 }

@@ -74,12 +74,37 @@
     }
 }
 
+@media (max-width:870px)
+{
+    .main-heading{
+        left: 36%;
+    }
+}
+
+
+@media (max-width: 590px)
+{
+    .main-heading{
+        left: 28%;
+    }
+}
+
+@media (max-width: 470px){
+    .main-heading{
+        left: 30%;
+    }
+    .main-description{
+        margin-left: 1.3rem!important;
+    }
+}
+
 /*End of Xavotsav heading*/
 
 /*Xavotsav Info*/
 
 .main-description {
     margin-top: 10rem;
+    margin-left: 2rem;
     font-size: 1.3rem;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
     animation-name: spaceIn;
@@ -166,8 +191,11 @@
 
 .social-wrapper a {
     margin: 10px;
-    padding: 2rem;
-    padding-bottom: 3rem;
+
+}
+
+.social-wrapper i {
+    padding-bottom: 3rem!important;
 }
 
 .splash .social {
@@ -175,6 +203,7 @@
 }
 
 .social-wrapper a:hover {
+    
     transition-duration: 0.8s;
     opacity: 1;
 }
@@ -758,11 +787,16 @@
 
 .secAfterMovie {
     text-align: justify;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .secAfterMovie h3 {
     margin-bottom: 5rem;
+}
+
+.afterMovieText
+{
+    top: 2rem;
 }
 
 /*Play Button*/
@@ -770,7 +804,42 @@
 .container-play {
     width: 5%;
     text-align: center;
-    margin-left: 5rem;
+    margin-left: 40%;
+
+}
+
+@media (max-width: 920px)
+{
+    .container-play
+    {
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .container-play
+    {
+        margin-top: 30%;
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 685px)
+{
+    .container-play
+    {
+        margin-top: 30%;
+        margin-left: 20%;
+        
+    }
+
+    .triangle
+    {
+        width: 100px!important;
+        height: 100px!important;
+    }
 }
 
 .circle {

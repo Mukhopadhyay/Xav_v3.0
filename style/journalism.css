@@ -134,11 +134,11 @@ body {
     position: absolute;
 }
 
-.satrang #one:before {
-    content: "SATRANG";
+.xlog #one:before {
+    content: "round";
 }
 
-.satrang #one {
+.xlog #one {
     font-size: 30px;
 }
 
@@ -199,7 +199,7 @@ body {
     margin-right: 4rem;
 }
 
-.duet-body-text, .satrang-body-text, .shuffle-body-text, .xpose-body-text, .nrityanatyam-body-text {
+.journal-body-text, .xlog-body-text, .gup-body-text, .radio-body-text, .freq-body-text {
     color: antiquewhite;
     font-size: .8rem;
     text-transform: uppercase;
@@ -212,7 +212,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.duet-dance {
+.journal-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -234,7 +234,7 @@ span:hover, li:hover {
         margin-left: 2rem;
         margin-right: 2rem;
     }
-    .duet-body-text {
+    .journal-body-text {
         font-size: .6rem;
         line-height: 1.2rem;
     }
@@ -251,7 +251,7 @@ span:hover, li:hover {
     }
 }
 
-.satrang, .shuffle, .xpose, .nrityanatyam {
+.xlog, .gup, .radio, .freq {
     display: none;
 }
 

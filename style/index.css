@@ -325,9 +325,45 @@
     font-size: 1rem;
 }
 
+.calender-text
+{
+    position: absolute;
+    right: 10%;
+    margin-right: -5rem;
+    margin-top: 10rem;
+}
+
+@media (max-width:832px) {
+
+    .calender-text {
+    right: 5%;
+    margin-right: -3rem;
+    }
+}
+
+@media (max-width: 790px) {
+    
+    .calender-text {
+        visibility: hidden;
+        }
+    .calendar {
+
+        margin-left: 20%;
+    }
+}
+
+
+
 /*END OF SECTION 2 INFO*/
 
 /*Timer*/
+
+.countdown {
+
+    font-family: 'Dancing Script';
+    font-size: 3rem; 
+    margin-bottom: 2rem;   
+}
 
 .container-timer {
     color: #333;
@@ -551,6 +587,8 @@
 
 .sectionName {
     color: white;
+    font-family: 'Dancing Script';
+    font-size: 3rem;
 }
 
 .icon-cards {
@@ -785,9 +823,38 @@
     background-size: cover;
 }
 
+.picturingParadise {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+}
+
+.gallery {
+
+    margin-top: 2rem;
+}
+
+.image-gallery {
+
+    margin-bottom: 2rem;
+    transition: 0.5s;
+}
+
+
+.image-gallery:hover {
+
+    opacity: 0.6;
+
+}
+
+
 .secAfterMovie {
     text-align: justify;
     font-size: 1rem;
+}
+
+.aftermovieHeading {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
 }
 
 .secAfterMovie h3 {
@@ -980,9 +1047,9 @@
 
 .calIntro {
     color: white;
-    position: absolute;
-    top: 80px;
-    left: 15%;
+    margin-top: -17rem;
+    font-family: 'Dancing Script';
+   
 }
 
 .secCalendar {

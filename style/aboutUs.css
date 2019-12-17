@@ -44,10 +44,61 @@ body {
     text-align: justify;
 }
 
+.aboutXavo
+{
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    margin: 2rem;
+    transition: 1s;
+    animation-name: change;
+    animation-duration: 1.5s;
+}
+
+@keyframes change {
+    0% {
+        opacity: 0;
+        font-size: 0.5rem;
+    }
+    50% {
+        opacity: 0.6;
+       
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.about-text
+{
+    font-size: 0.9rem;
+}
+
 @media (max-width: 800px) {
     .container-custom {
         margin-left: 3rem;
         margin-right: 3rem;
         font-size: .9rem;
     }
+}
+
+.partnership , .contactUs
+{
+    color: white;
+    margin-top: rem;
+    border-left: white;
+}
+
+.social-wrapper {
+
+    font-size: 2rem;
+    margin: 4rem;
+   
+}
+
+.social-wrapper i {
+    color: white;
+    padding-left: 1rem;
+    transition: 1s;
+    animation-name: change;
+    animation-duration: 3.5s;
 }

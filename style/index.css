@@ -74,26 +74,23 @@
     }
 }
 
-@media (max-width:870px)
-{
-    .main-heading{
+@media (max-width:870px) {
+    .main-heading {
         left: 36%;
     }
 }
 
-
-@media (max-width: 590px)
-{
-    .main-heading{
+@media (max-width: 590px) {
+    .main-heading {
         left: 28%;
     }
 }
 
-@media (max-width: 470px){
-    .main-heading{
+@media (max-width: 470px) {
+    .main-heading {
         left: 30%;
     }
-    .main-description{
+    .main-description {
         margin-left: 1.3rem!important;
     }
 }
@@ -191,7 +188,6 @@
 
 .social-wrapper a {
     margin: 10px;
-
 }
 
 .social-wrapper i {
@@ -203,7 +199,6 @@
 }
 
 .social-wrapper a:hover {
-    
     transition-duration: 0.8s;
     opacity: 1;
 }
@@ -325,8 +320,7 @@
     font-size: 1rem;
 }
 
-.calender-text
-{
+.calender-text {
     position: absolute;
     right: 10%;
     margin-right: -5rem;
@@ -334,35 +328,29 @@
 }
 
 @media (max-width:832px) {
-
     .calender-text {
-    right: 5%;
-    margin-right: -3rem;
+        right: 5%;
+        margin-right: -3rem;
     }
 }
 
 @media (max-width: 790px) {
-    
     .calender-text {
         visibility: hidden;
-        }
+    }
     .calendar {
-
         margin-left: 20%;
     }
 }
-
-
 
 /*END OF SECTION 2 INFO*/
 
 /*Timer*/
 
 .countdown {
-
     font-family: 'Dancing Script';
-    font-size: 3rem; 
-    margin-bottom: 2rem;   
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .container-timer {
@@ -829,23 +817,17 @@
 }
 
 .gallery {
-
     margin-top: 2rem;
 }
 
 .image-gallery {
-
     margin-bottom: 2rem;
     transition: 0.5s;
 }
 
-
 .image-gallery:hover {
-
     opacity: 0.6;
-
 }
-
 
 .secAfterMovie {
     text-align: justify;
@@ -861,8 +843,7 @@
     margin-bottom: 5rem;
 }
 
-.afterMovieText
-{
+.afterMovieText {
     top: 2rem;
 }
 
@@ -872,38 +853,28 @@
     width: 5%;
     text-align: center;
     margin-left: 40%;
-
 }
 
-@media (max-width: 920px)
-{
-    .container-play
-    {
+@media (max-width: 920px) {
+    .container-play {
         margin-top: 10%;
         margin-left: 30%;
     }
 }
 
-@media (max-width: 767px)
-{
-    .container-play
-    {
+@media (max-width: 767px) {
+    .container-play {
         margin-top: 30%;
         margin-left: 25%;
     }
 }
 
-@media (max-width: 685px)
-{
-    .container-play
-    {
+@media (max-width: 685px) {
+    .container-play {
         margin-top: 30%;
         margin-left: 20%;
-        
     }
-
-    .triangle
-    {
+    .triangle {
         width: 100px!important;
         height: 100px!important;
     }
@@ -1049,7 +1020,6 @@
     color: white;
     margin-top: -17rem;
     font-family: 'Dancing Script';
-   
 }
 
 .secCalendar {
@@ -1058,9 +1028,138 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .secCalendar::before {
     content: "";
     background: inherit;
     -webkit-filter: blur(10px);
     filter: blur(10px);
+}
+
+/*Fullpage navigation span override*/
+
+#fp-nav span {
+    background-color: white !important;
+}
+
+/*Flickity Galary*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.carousel {
+    background: #eee;
+}
+
+.carousel-cell {
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.carousel-cell img {
+    display: block;
+    height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-cell img {
+        height: 400px;
+    }
+}
+
+/*flickity override*/
+
+.flickity-viewport {
+    background-color: transparent !important;
+}
+
+.dot {
+    background-color: white !important;
+}
+
+.flickity-button {
+    display: none;
+}
+
+/*Sponsors section*/
+
+.sec4 {
+    background: gray;
+    height: 100vh;
+}
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+}
+
+#box {
+    float: left;
+    width: 25%;
+    padding-bottom: 25%;
+    color: #FFF;
+    position: relative;
+}
+
+#innerContent {
+    transition-duration: .2s;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+.titleBox {
+    margin-top: .5rem;
+    font-size: .8rem !important;
+}
+.spons {
+    width: 80%;
+}
+
+#innerContent:hover {
+    transform: scale(2);
+    transform: translateX(50%);
+    transform: translateY(50%);
+    transition-duration: .7s;
+}
+
+@media only screen and (max-width: 480px) {
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+    #box {
+        width: 20%;
+        padding-bottom: 20%;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1051px) {
+    /* Medium desktop: 4 tiles */
+    #box {
+        width: 15%;
+        padding-bottom: 15%;
+    }
+    .wrap {
+        margin-left: 7.5rem;
+    }
 }

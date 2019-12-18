@@ -210,16 +210,11 @@
 .sec1 .contactUs {
     position: absolute;
     left: 50px;
-    bottom: -5rem!important;
+    bottom: -50px;
     
 }
 
-@media (max-width: 411px) {
-    .sec1 .contactUs {
-       margin-bottom: 3rem!important;
-        
-    }
-}
+
 
 @media (max-width: 750px) {
     .sec1 .contactUs {
@@ -573,6 +568,13 @@
     right: 30px;
     bottom: 20px;
     width: 10rem;
+}
+
+@media (min-width: 411px) {
+    .sec3 .contactUs .eventButton {
+        bottom: 50px;
+        
+    }
 }
 
 .eventButton {
@@ -1175,7 +1177,7 @@ body {
 }
 
 .carousel {
-    background: #eee;
+    background: transparent;
 }
 
 .carousel-cell {

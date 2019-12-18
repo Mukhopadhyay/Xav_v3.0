@@ -5,6 +5,9 @@
 
 body {
     width: 100%;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg,#5f0a87 30%, #a4508b 0%, #5f0a87 74%);
+    
 }
 
 /*LOGO CSS*/
@@ -37,6 +40,8 @@ body {
 
 .text1 {
     margin-bottom: 2.5rem;
+    font-family: 'Dancing Script';
+    font-size: 3rem;
 }
 
 .hexa, .hexa div {
@@ -82,6 +87,8 @@ body {
 
 .tClass {
     font-size: .8rem;
+    margin: 0.2rem;
+    color: white;
 }
 
 .memberName {
@@ -103,7 +110,7 @@ body {
 } */
 
 .modal-title {
-    color: black;
+    color: white!important;
 }
 .close span {
     color: black;
@@ -170,7 +177,7 @@ body {
 
 /*Footer part*/
 
-footer {
+/* footer {
     background-image: linear-gradient(to top, #ffe35941, #ffa85159, rgba(255,255,255,0.0));
     width: inherit;
     height: 200px;
@@ -184,7 +191,7 @@ footer {
 .logo {
     width: 150px;
     align-content: center;
-}
+} */
 
 /*Navigation icon override*/
 
@@ -198,4 +205,71 @@ footer {
 
 .body-wrapper {
     margin-top: 5rem;
+}
+
+/*Footer*/
+
+.partnership , .contactUs {
+
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.text-heading
+{
+    transition: 0.5s;
+}
+
+.text-heading:hover {
+
+    letter-spacing: 0.1rem;
+}
+
+.social-wrapper {
+
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+   
+}
+
+.social-wrapper i {
+    color: white;
+    opacity: 0.6;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: 1s;
+    animation-name: change;
+    animation-duration: 3.5s;
+}
+
+.social-wrapper i:hover {
+
+    opacity: 1;
+    border-color: white!important;
+}
+
+
+.followUs
+{
+    font-size: 1rem;
+    text-align: center;
+    width: 10rem;
+    padding: 0.2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px 20px 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.followUs:hover
+{
+    color: white;
+    letter-spacing: 0.1rem;
+    background-color: transparent;
+    box-shadow: white;
+    
 }

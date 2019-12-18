@@ -81,6 +81,8 @@ body {
     }
 }
 
+/*Footer*/
+
 .partnership , .contactUs {
 
     color: white;
@@ -131,7 +133,7 @@ body {
     text-align: center;
     width: 10rem;
     padding: 0.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-radius: 20px 20px 20px;
     background-color: white;
     transition: 0.5s;

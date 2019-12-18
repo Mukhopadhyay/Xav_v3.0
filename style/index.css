@@ -210,7 +210,7 @@
 .sec1 .contactUs {
     position: absolute;
     left: 50px;
-    bottom: -50px;
+    bottom: -30% !important;
     
 }
 
@@ -329,13 +329,13 @@
 @media (max-width: 320px) {
     .dateXavotsav {
         display: none;
-
     }
 }
 
 @media (max-width: 360px) {
     .dateXavotsav {
         display: none;
+        
     }
 }
 
@@ -1254,18 +1254,14 @@ body {
 }
 .titleBox {
     margin-top: .5rem;
-    font-size: .8rem !important;
+    font-size: .7rem !important;
 }
 .spons {
     width: 80%;
 }
 
 #innerContent:hover {
-    
-    margin: 0.2rem;
-    transform: scale(2);
-    transform: translateX(20%);
-    transform: translateY(20%);
+    transform: scale(1.5);
     transition-duration: .7s;
 }
 

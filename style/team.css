@@ -4,10 +4,17 @@
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    background-color: #a4508b;
-    background-image: linear-gradient(326deg,#5f0a87 30%, #a4508b 0%, #5f0a87 74%);
-    
+    /* background-color: #a4508b;
+    background-image: linear-gradient(326deg,#5f0a87 30%, #a4508b 0%, #5f0a87 74%); */
+    background-image: url("../images/Cover-Back-Blur.jpg");
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*LOGO CSS*/
@@ -272,4 +279,27 @@ body {
     background-color: transparent;
     box-shadow: white;
     
+}
+
+.wrapper {
+    color: white;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.member {
+    border-radius: 50%;
+    width: 80px;
+}
+
+#loader {
+    margin-top: -5rem;
+}
+
+.mNumber {
+    font-size: .7rem;
+}
+
+#nav-icon2 span{
+    background-color: white;
 }

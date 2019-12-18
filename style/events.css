@@ -4,6 +4,7 @@
 }
 
 /*Full page carousel*/
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -34,4 +35,46 @@
     position: absolute;
     top: 0px;
     left: 50px;
+}
+
+/*Custom button*/
+
+.customButton {
+    font-family: 'Roboto';
+    /* color: black; */
+    text-decoration: none;
+    padding: 0.6rem;
+    width: 12rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 40px 40px 40px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    animation-name: spaceIn;
+    animation-duration: 3s;
+}
+
+.customButton:hover {
+    text-decoration: none;
+    border-radius: 0px;
+    letter-spacing: 0.2rem;
+    transform: scale(1.3, 1.3);
+    text-shadow: 0px 0px 0px black;
+    /* color: white; */
+    /* color: black; */
+}
+
+@keyframes spaceIn {
+    0% {
+        opacity: .5;
+    }
+    50% {
+        opacity: .75;
+    }
+    100% {
+        opacity: 1;
+    }
 }

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+
+body {
+    background-image: url('../images/background/back1darker.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navWrapper {
+    position: fixed !important;
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+
+/*Category Navigation Button*/
+
+.buttonHolder {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+#btnCat {
+    background: rgba(0, 0, 0, .2);
+    padding: .5rem;
+    margin: .2rem;
+}
+
+.btnXY {
+    background: rgba(0, 0, 0, 0);
+}
+
+.buttonHolder a {
+    color: #F0f0f0;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.buttonHolder a:hover {
+    text-decoration: none;
+    color: white;
+    transition-duration: .5s;
+}
+
+.icon-container {
+    margin-bottom: 2rem;
+}
+
+/* .dance-img {
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    transition-duration: .3s;
+}
+
+
+.dance-img:hover {
+    width: 17em;
+    transition-duration: .5s;
+} */
+
+/*Dance Icon*/
+
+@keyframes change {
+    0% {
+        opacity: 0;
+        margin-top: 15rem;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    100% {
+        /* opacity: 0.9; */
+    }
+}
+
+.circle-container {
+    margin-top: 3rem;
+    margin-bottom: 6rem!important;
+    /* margin-left: -3rem!important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    width: 30vh;
+    height: 30vh;
+    margin-left: -2.1rem!important;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: change;
+    animation-duration: 1.5s;
+}
+
+#one:before {
+    content: "X-Y";
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.conf #one:before {
+    content: "conf";
+}
+
+.conf #one {
+    font-size: 30px;
+}
+
+#one {
+    background-image: linear-gradient(transparent, rgba(3, 3, 3, 0.486));
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* opacity: 0.8; */
+    /* font-weight: bold; */
+    transition: 1s;
+}
+
+#four {
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#five {
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#cc {
+    /* position: relative; */
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cc:hover #one {
+    /* text-shadow: 0px 10px 5px rgb(246, 245, 245); */
+    transform: rotateY(360deg);
+}
+
+#cc:hover #four {
+    background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.671), transparent);
+    margin-bottom: 5rem;
+    box-shadow: 0px 10px 10px black;
+    transform: translate(100px, 0px);
+}
+
+#cc:hover #five {
+    background-image: linear-gradient(transparent, rgba(255, 255, 255, 0.671), transparent);
+    margin-bottom: 5rem;
+    box-shadow: 0px 10px 10px black;
+    transform: translate(-100px, 0px);
+}
+
+.container-text {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.comp-body-text, .conf-body-text, .spell-body-text, .lexi-body-text, .plain-body-text, .scratch-body-text, .scripted-body-text {
+    color: antiquewhite;
+    font-size: .8rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+}
+
+span:hover, li:hover {
+    background: black;
+    color: white;
+}
+
+.comp-dance {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-text {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .comp-body-text {
+        font-size: .6rem;
+        line-height: 1.2rem;
+    }
+    .circle-container {
+        margin-left: -1rem!important;
+        margin-bottom: 7rem!important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .circle-container {
+        margin-left: -3rem;
+        margin-bottom: 10rem!important;
+    }
+}
+
+.conf, .spell, .lexi, .plain, .scratch, .scripted {
+    display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Loader alignment*/
+
+#loader {
+    margin-top: -5rem;
+}
+
+.main-texts {
+    text-align: justify;
+}
+
+/*Hover button up*/
+
+.btn-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #f85032, #e73827);
+    transition-duration: .2s;
+    color: white;
+    animation-name: bounceInUp;
+}
+
+.btn-up:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    transition-duration: .4s;
+    color: black;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700i|Dancing+Script|Roboto&display=swap');
 * {
     font-family: 'Roboto';
 }
@@ -40,10 +40,6 @@ body {
 }
 
 /*LOGO CSS END*/
-
-.teamWrapper {
-    margin-top: 5.5rem;
-}
 
 .text1 {
     margin-bottom: 2.5rem;
@@ -103,9 +99,11 @@ body {
     margin-top: .5rem;
     font-size: 1rem;
 }
+
 .mMobile {
     color: black;
 }
+
 /*MODAL OVERRIDE*/
 
 /* .modal-header {
@@ -119,11 +117,13 @@ body {
 .modal-title {
     color: white!important;
 }
+
 .close span {
     color: black;
 }
 
 /*MOBILE*/
+
 @media (max-width: 450px) {
     /*Team page hex size*/
     .hexa {
@@ -157,6 +157,7 @@ body {
 }
 
 /*Social icon override*/
+
 .social {
     font-size: 1.5rem;
 }
@@ -165,6 +166,7 @@ body {
     text-decoration: none;
     opacity: .6;
 }
+
 .social a:hover {
     text-decoration: none;
     opacity: 1;
@@ -216,30 +218,24 @@ body {
 
 /*Footer*/
 
-.partnership , .contactUs {
-
+.partnership, .contactUs {
     color: white;
     text-align: center;
     margin-top: 4rem;
-    
 }
 
-.text-heading
-{
+.text-heading {
     transition: 0.5s;
 }
 
 .text-heading:hover {
-
     letter-spacing: 0.1rem;
 }
 
 .social-wrapper {
-
     text-align: center;
     font-size: 2rem;
     margin-top: 4rem;
-   
 }
 
 .social-wrapper i {
@@ -254,14 +250,11 @@ body {
 }
 
 .social-wrapper i:hover {
-
     opacity: 1;
     border-color: white!important;
 }
 
-
-.followUs
-{
+.followUs {
     font-size: 1rem;
     text-align: center;
     width: 10rem;
@@ -272,16 +265,15 @@ body {
     transition: 0.5s;
 }
 
-.followUs:hover
-{
+.followUs:hover {
     color: white;
     letter-spacing: 0.1rem;
     background-color: transparent;
     box-shadow: white;
-    
 }
 
 .wrapper {
+    font-family: 'Alegreya Sans';
     color: white;
     margin-top: 5rem;
     text-transform: uppercase;
@@ -300,6 +292,35 @@ body {
     font-size: .7rem;
 }
 
-#nav-icon2 span{
+#nav-icon2 span {
     background-color: white;
+}
+
+
+.row div {
+    font-family: 'Alegreya Sans';
+    margin-bottom: 4rem;
+}
+
+.wrapper p {
+    font-family: 'Alegreya Sans';
+}
+
+.number {
+    font-family: 'Alegreya Sans';
+    font-size: 5rem;
+}
+
+.customHr {
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    height: .1rem;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.partnership, .contactUs {
+    font-family: Roboto!important;
 }

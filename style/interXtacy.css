@@ -273,7 +273,8 @@ html {
     /* background-color: black; */
     font-size: .7rem;
     margin-top: 2rem;
-    color: white;}
+    color: white;
+}
 
 .rules ol {
     margin-left: 1rem;
@@ -297,4 +298,8 @@ table, th, td {
 .wrapper {
     margin-left: 3rem !important;
     margin-right: 1rem;
+}
+.scheduleWrapper {
+    margin-top: 5rem;
+    color: white;
 }

@@ -77,8 +77,9 @@
 @media ( max-width: 320px  )  {
     .main-heading {
         margin-top: -8rem!important;
+        margin-left: -10%!important;
         font-size: 3rem;
-        left: 30%!important;
+        
     }
 }
 
@@ -86,6 +87,7 @@
     .main-heading {
         margin-top: -8rem;
         font-size: 4rem;
+        margin-left: -12%!important;
     }
 }
 
@@ -93,7 +95,7 @@
     .main-heading {
         margin-top: -9rem;
         font-size: 4rem;
-        left: 35%!important;
+        left: 30%!important;
     }
 }
 
@@ -198,7 +200,7 @@
     .customButton {
         
         padding: 0.6rem;
-        width: 12rem;
+        width: 10rem;
         font-size: 14px;
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -251,6 +253,7 @@
 
 .social-wrapper i {
     padding-bottom: 3rem!important;
+    margin-bottom: -1rem;
 }
 
 .splash .social {
@@ -269,10 +272,23 @@
 }
 
 @media (max-width: 320px) {
-    .social-wrapper {
-        
+    .social-wrapper i {
         font-size: 30px;
-        
+        margin-bottom: -2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .social-wrapper i {
+        font-size: 45px;
+        margin-bottom: -2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .social-wrapper i {
+        font-size: 45px;
+        /* margin-bottom: -2rem; */
     }
 }
 
@@ -328,19 +344,33 @@
 
 @media (max-width: 320px) {
     .dateXavotsav {
-        display: none;
+        background-image: url('../images/png/Date.png');
+        margin-right: -1.2rem!important;
+        margin-bottom: -6.9rem!important;
     }
 }
 
 @media (max-width: 360px) {
     .dateXavotsav {
-        display: none;
+        background-image: url('../images/png/Date.png');
+        margin-right: -2rem!important;
+        margin-bottom: -6rem!important;
+        
+    }
+}
+
+@media (max-width: 375px) {
+    .dateXavotsav {
+    
+        margin-right: -0.5rem!important;
+        margin-bottom: -5rem;
         
     }
 }
 
 @media ( max-width: 411px) {
     .dateXavotsav {
+        background-image: url('../images/png/datebig.png');
         bottom: 35px!important;
         margin-right: 5px;
     }
@@ -414,6 +444,8 @@
     margin-top: 10rem;
 }
 
+
+
 @media (max-width: 411px) {
     .calendar {
         margin-left: -1%!important;
@@ -443,7 +475,22 @@
 .countdown {
     font-family: 'Dancing Script';
     font-size: 3rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 320px) {
+    .countdown {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .countdown {
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    }
 }
 
 .container-timer {
@@ -496,6 +543,37 @@
     }
 }
 
+@media (max-width: 320px) {
+    .time .ph {
+        font-size: 2rem;
+        width: 5rem;
+        padding: 1rem;
+        margin-top: -2rem;
+        border-radius: 50%;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .time .ph {
+        font-size: 2rem;
+        width: 5.5rem;
+        padding: 1rem;
+        margin-top: -2rem;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 375px) {
+    .time .ph {
+        font-size: 2rem;
+        width: 6rem;
+        padding: 1.5rem;
+        margin-top: -2rem;
+        border-radius: 50%;
+    }
+}
+
 .container-timer {
     box-shadow: 10px 10px 10px rgba(#f1f335, #f1f335, #f1f335, 1)!important;
 }
@@ -508,6 +586,18 @@
     letter-spacing: 0.2rem;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px rgb(5, 5, 5);
+}
+
+
+@media (max-width: 320px) {
+    .day-hour-min-sec {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.minutes , .seconds {
+    margin-right: 4rem!important;
 }
 
 .iframeCustom {
@@ -943,14 +1033,61 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     margin-top: 4rem;
 }
 
+@media (max-width: 320px) {
+    .aftermovieHeading {
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    }
+}
+
 .secAfterMovie h3 {
     margin-bottom: 5rem;
 }
 
 .afterMovieText {
     top: 2rem;
+}
+
+@media (max-width: 320px) {
+    .afterMovieText {
+        font-size: 0.9rem;
+        margin-top: -5rem;
+        margin-right: 3rem;
+    }
     
 }
+
+@media (max-width: 360px) {
+    .afterMovieText {
+        font-size: 0.9rem;
+        margin-top: -4rem;
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .afterMovieText {
+        font-size: 0.9rem;
+        margin-top: -4rem;
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+@media (max-width: 414px) {
+    .afterMovieText {
+        
+        margin-top: -4rem;
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+
 
 /*Play Button*/
 
@@ -959,6 +1096,39 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     align-content: center;
     text-align: center;
     margin-left: 40%;
+}
+
+@media (max-width: 320px){
+    .container-play {
+        
+        margin-top: -1rem;
+        margin-left: 20%!important;
+    }
+    
+}
+
+@media (max-width: 360px){
+    .container-play {
+        margin-top: -0.01rem!important;
+        margin-left: 22%!important;
+    }
+    
+}
+
+@media (max-width: 375px){
+    .container-play {
+        /* margin-top: -0.01rem!important; */
+        margin-left: 22%!important;
+    }
+    
+}
+
+@media (max-width: 414px){
+    .container-play {
+        /* margin-top: -0.01rem!important; */
+        margin-left: 25%!important;
+    }
+    
 }
 
 @media (max-width: 575px){
@@ -1144,6 +1314,13 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     font-size: 3rem;
     margin-top: -17rem;
     font-family: 'Dancing Script';
+}
+
+@media (max-width: 320px) {
+    .calIntro {
+        font-size: 2rem;
+        margin-top: -13rem;
+    }
 }
 
 .secCalendar {

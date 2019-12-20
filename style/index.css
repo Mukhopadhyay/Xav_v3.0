@@ -85,9 +85,9 @@
 
 @media ( max-width: 360px) {
     .main-heading {
-        margin-top: -8rem;
+        margin-top: -8rem!important;
+        margin-left: -8%!important;
         font-size: 4rem;
-        margin-left: -12%!important;
     }
 }
 
@@ -215,6 +215,8 @@
     bottom: -30% !important;
     
 }
+
+
 
 
 
@@ -644,6 +646,27 @@
     font-size: 1.2rem;
 }
 
+@media (max-width: 320px) {
+    .eventDesc {
+        margin: 0.5rem;
+        
+    }
+}
+
+@media (max-width: 360px) {
+    .eventDesc {
+        margin: 0.5rem;
+        
+    }
+}
+
+@media (max-width: 414px) {
+    .eventDesc {
+        margin-top: 1rem;
+        
+    }
+}
+
 .eventButtonDiv {
     position: absolute;
     left: 2%;
@@ -660,12 +683,49 @@
     width: 10rem;
 }
 
-@media (min-width: 411px) {
+@media(max-width: 320px) {
     .sec3 .contactUs .eventButton {
-        bottom: 50px;
-        
+        display: none;
+    }
+    
+}
+
+@media(max-width: 360px) {
+    .sec3 .contactUs .eventButton {
+        display: none;
+    }
+    
+}
+
+@media(max-width: 375px) {
+    .sec3 .contactUs .eventButton {
+        display: none;
+    }
+    
+}
+
+@media(max-height: 731px) {
+    .sec3 .contactUs .eventButton {
+        bottom: -10px;
+    }
+    
+}
+
+@media(max-height: 736px) {
+    .sec3 .contactUs .eventButton {
+        bottom: -5px;
+    }
+    
+}
+
+@media (max-height: 823px) {
+    .sec3 .contactUs .eventButton {
+        margin-bottom: 1.5rem!important;
+
     }
 }
+
+
 
 .eventButton {
     margin-top: 1rem;
@@ -688,6 +748,20 @@
     text-shadow: none;
     /* color: white; */
     color: black;
+}
+
+@media (max-width: 320px) {
+    .eventButton {
+        width: 12rem;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .eventButton {
+        width: 12rem;
+        font-size: 14px;
+    }
 }
 
 /*
@@ -763,10 +837,42 @@
 
 /*ANIMATED CAROUSEL EVENT*/
 
-.sectionName {
+.eventName {
     color: white;
     font-family: 'Dancing Script';
     font-size: 3rem;
+}
+
+@media (max-width: 320px) {
+    
+.eventName {
+    font-size: 2.5rem;
+    margin-top: 9.5rem!important;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .eventName {
+        font-size: 2.5rem;
+        margin-top: 9rem!important;
+        }
+}
+
+@media (max-width: 411px) {
+    
+    .eventName {
+        font-size: 3rem;
+        margin-top: 6rem!important;
+        }
+}
+
+@media (max-width: 414px) {
+    
+    .eventName {
+        font-size: 3rem;
+        margin-top: 6rem!important;
+        }
 }
 
 .icon-cards {
@@ -995,6 +1101,30 @@
     }
 }
 
+@media (max-width: 320px) {
+    .cards {
+        margin-top: -9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .cards {
+        margin-top: -9rem;
+    }
+}
+
+@media (max-width: 411px) {
+    .cards {
+        margin-top: -9rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .cards {
+        margin-top: -9rem;
+    }
+}
+
 .secParadise {
     text-align: justify;
     background-image: url("../images/background/back2.jpg");
@@ -1004,6 +1134,22 @@
 .picturingParadise {
     font-family: 'Dancing Script';
     font-size: 3rem;
+}
+
+@media (max-width: 320px) {
+    .picturingParadise {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .picturingParadise {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 .gallery {
@@ -1018,6 +1164,17 @@
 .image-gallery:hover {
     opacity: 0.6;
 }
+
+.picturingParadiseText {
+    margin-top: 2rem;
+}
+
+@media (max-width: 320px) {
+    .picturingParadiseText {
+        margin-top: 2rem;
+    }
+}
+
 
 .secAfterMovie {
     text-align: justify;
@@ -1100,7 +1257,6 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 
 @media (max-width: 320px){
     .container-play {
-        
         margin-top: -1rem;
         margin-left: 20%!important;
     }
@@ -1110,7 +1266,7 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 @media (max-width: 360px){
     .container-play {
         margin-top: -0.01rem!important;
-        margin-left: 22%!important;
+        margin-left: 15%!important;
     }
     
 }

@@ -93,7 +93,7 @@
 
 @media (max-width: 411px) {
     .main-heading {
-        margin-top: -9rem;
+        margin-top: -8rem;
         font-size: 4rem;
         left: 30%!important;
     }
@@ -369,7 +369,7 @@
 
 @media ( max-width: 411px) {
     .dateXavotsav {
-        background-image: url('../images/png/datebig.png');
+        background-image: url('../images/png/Date.png');
         bottom: 35px!important;
         margin-right: 5px;
     }

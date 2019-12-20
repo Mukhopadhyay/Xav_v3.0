@@ -134,12 +134,32 @@ body {
     position: absolute;
 }
 
-.verse #one:before {
-    content: "verse";
+.spot #one:before {
+    content: "ON-THE-SPOT";
 }
 
-.verse #one {
-    font-size: 30px;
+.verse #one:before {
+    content: "X-VERSE";
+}
+
+.pose #one:before {
+    content: "X-POSE";
+}
+
+.war #one:before {
+    content: "WAR-OF-WORDS";
+}
+
+.pass #one:before {
+    content: "PASS-THE-TORCH";
+}
+
+.channel #one:before {
+    content: "CHANNEL-EYES";
+}
+
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -289,4 +309,15 @@ span:hover, li:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
     transition-duration: .4s;
     color: black;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

@@ -133,13 +133,24 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
-
+.nach #one:before {
+    content: "NACH BALIYE";
+}
 .ghun #one:before {
-    content: "ghun";
+    content: "GHUNGHROO";
+}
+.jazz #one:before {
+    content: "JAZZ-IT-UP";
+}
+.rip #one:before {
+    content: "RIP-OFF";
+}
+.navrath #one:before {
+    content: "NAVRATH";
 }
 
-.ghun #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -299,4 +310,14 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

@@ -147,8 +147,11 @@ body {
     background: white;
 }
 
-.sidenav {
+.navWrapper {
     position: fixed!important;
+}
+
+.sidenav {
     background-color: rgb(211, 238, 113);
 }
 
@@ -285,7 +288,7 @@ body {
 
 .member {
     border-radius: 50%;
-    width: 80px;
+    width: 120px;
 }
 
 #loader {
@@ -300,10 +303,9 @@ body {
     background-color: white;
 }
 
-
 .row div {
     font-family: 'Alegreya Sans';
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .wrapper p {
@@ -327,4 +329,19 @@ body {
 
 .partnership, .contactUs {
     font-family: Roboto!important;
+}
+
+@media (max-width: 450px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    .member {
+        width: 80px;
+    }
+    h5 {
+        font-size: .8rem;
+    }
+    p {
+        font-size: .6rem;
+    }
 }

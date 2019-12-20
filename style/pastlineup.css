@@ -8,6 +8,7 @@ html, body {
     position: absolute;
     height: 100%;
     width: 100%;
+    left: 0px;
     -webkit-animation: rotateHue infinite 20s linear;
     animation: rotateHue infinite 20s linear;
     -webkit-animation-delay: 0.625s;
@@ -310,7 +311,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(1) .untitled__slideBg {
-    background-image: url(https://www.musicplus.in/wp-content/uploads/2018/05/euphoria-fb.jpg);
+    background-image: url("../images/pastLineup/euphoria.jpg");
 }
 
 .untitled__slide:nth-child(2) {
@@ -319,7 +320,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(2) .untitled__slideBg {
-    background-image: url(https://globaldjmix.com/files/download/stefan_addo_e11even_presents.jpg);
+    background-image: url("../images/pastLineup/anirban.jpeg");
 }
 
 .untitled__slide:nth-child(3) {
@@ -328,7 +329,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(3) .untitled__slideBg {
-    background-image: url(https://rollingstoneindia.com/wp-content/uploads/2018/06/TBH_3198-960x640.jpg);
+    background-image: url("../images/pastLineup/parikrama.jpg");
 }
 
 .untitled__slide:nth-child(4) {
@@ -337,7 +338,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(4) .untitled__slideBg {
-    background-image: url(https://images.jdmagicbox.com/events/A899128/A899128_gal_20160715124329.jpg);
+    background-image: url("../images/pastLineup/stefen.png");
 }
 
 .untitled__slideBg {
@@ -477,4 +478,8 @@ html, body {
 
 #loader {
     margin-top: -5rem;
+}
+
+.navItems {
+    z-index: 999;
 }

@@ -133,13 +133,24 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
-
+.lime #one:before {
+    content: "LIMELIGHT";
+}
 .funk #one:before {
-    content: "funk";
+    content: "FUNK-IT-UP";
+}
+.nukkad #one:before {
+    content: "NUKKAD NATAK";
+}
+.con #one:before {
+    content: "PRO AND CON";
+}
+.freq #one:before {
+    content: "FREQUENCY 102";
 }
 
-.funk #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -297,4 +308,14 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

@@ -134,12 +134,36 @@ body {
     position: absolute;
 }
 
+.sell #one:before {
+    content: "X-SELL";
+}
 .posure #one:before {
-    content: "posure";
+    content: "X-POSURE";
+}
+.recce #one:before {
+    content: "RECCE";
+}
+.poster #one:before {
+    content: "POSTING PARADISE";
+}
+.gif #one:before {
+    content: "GIFGIFGIF";
+}
+.mini #one:before {
+    content: "MINIMALIZE";
+}
+.hunt #one:before {
+    content: "X-HUNT";
+}
+.cut #one:before {
+    content: "CUT IT SHORT";
+}
+.depiction #one:before {
+    content: "DEPICTION";
 }
 
-.posure #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -298,4 +322,14 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

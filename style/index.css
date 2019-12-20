@@ -669,8 +669,8 @@
 
 .eventButtonDiv {
     position: absolute;
-    left: 2%;
-    top: 38%;
+    left: -1%;
+    top: 30%;
     bottom: 50%;
     margin-top: 1rem;
     z-index: 1;
@@ -692,10 +692,28 @@
 }
 
 @media(max-width: 320px) {
+    .secAfterMovie .aftermovieHeading {
+        font-size: 1.5rem;
+        margin-top: -2rem !important;
+    }
+    .secAfterMovie .afterMovieText {
+        text-align: center;
+        font-size: .8rem;
+    }
     .sec3 .contactUs .eventButton {
         display: none;
     }
-    
+    .sec3 .eventButton {
+        font-size: .6rem;
+        width: 50%;
+    }
+    .eventName {
+        margin-bottom: 1rem !important;
+    }
+    .eventDesc {
+        margin-top: 1rem;
+        font-size: .7rem;
+    }
 }
 
 @media(max-width: 360px) {
@@ -1223,13 +1241,12 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 .aftermovieHeading {
     font-family: 'Dancing Script';
     font-size: 3rem;
-    margin-top: 4rem;
+    margin-top: -2rem !important;
 }
 
 @media (max-width: 320px) {
     .aftermovieHeading {
-        font-size: 2.5rem;
-        margin-top: -6rem;
+        font-size: 2.5rem !important;
     }
 }
 
@@ -1266,16 +1283,19 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 @media (max-width: 320px) {
     .afterMovieText {
         font-size: 0.9rem;
-        margin-top: -5.5rem!important;
+        margin-top: 1rem !important;
         margin-right: 3rem;
     }
     
 }
 
 @media (max-width: 360px) {
+    .calendar {
+        left: 10% !important;
+    }
     .afterMovieText {
         font-size: 0.9rem;
-        margin-top: -4rem;
+        margin-top: 1rem !important;
         margin-right: 3rem;
         margin-bottom: 0.5rem;
     }
@@ -1392,6 +1412,10 @@ body {
   }
   
   @media (max-width: 320px) {
+      .calendar {
+          left: 5% !important;
+          top: 75px !important;
+      }
       .video-play-button {
           margin-top: -5rem!important;
       }
@@ -1403,6 +1427,9 @@ body {
 }
 
 @media (max-width: 375px) {
+    .calendar {
+        left: 11% !important;
+    }
     .video-play-button {
         margin-top: 7rem!important;
     }
@@ -1920,5 +1947,7 @@ body {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-
+.secAfterMovie .row {
+    margin-top: -4rem !important;
+}
 

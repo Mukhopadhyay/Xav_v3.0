@@ -42,3 +42,8 @@ body {
 #loader {
     margin-top: -15rem;
 }
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+}

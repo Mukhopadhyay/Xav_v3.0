@@ -133,13 +133,33 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
-
+.mix #one:before {
+    content: "MIX TAPE";
+}
 .unplugged #one:before {
-    content: "unplugged";
+    content: "UNPLUGGED";
+}
+.beat #one:before {
+    content: "BEAT-THE-STRING";
+}
+.xmuse #one:before {
+    content: "X-MUSE";
+}
+.xplosive #one:before {
+    content: "XPLOSIVE";
+}
+.stun #one:before {
+    content: "STUNS AND ROSES";
+}
+.heat #one:before {
+    content: "HEAT THE BEAT";
+}
+.melody #one:before {
+    content: "DIVINE MELODY";
 }
 
-.unplugged #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -297,4 +317,14 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

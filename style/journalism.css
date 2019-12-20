@@ -134,12 +134,24 @@ body {
     position: absolute;
 }
 
-.xlog #one:before {
-    content: "round";
+.journal #one:before {
+    content: "JOURNAL";
 }
 
-.xlog #one {
-    font-size: 30px;
+.xlog #one:before {
+    content: "XLOG";
+}
+
+.gup #one:before {
+    content: "GUPSHUP";
+}
+
+.radio #one:before {
+    content: "RADIO TALKIES";
+}
+
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -291,4 +303,15 @@ span:hover, li:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
     transition-duration: .4s;
     color: black;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

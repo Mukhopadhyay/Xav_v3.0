@@ -160,3 +160,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.sidenav ul {
+    list-style: none;
+}
+.subMenu a{
+    margin-left: 30px;
+    font-size: .8rem;
+    color: #818181;
+}
+.subMenu a:hover {
+    color: #f1f1f1;
+}

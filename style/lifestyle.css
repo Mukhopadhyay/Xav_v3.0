@@ -134,11 +134,28 @@ body {
     position: absolute;
 }
 
-.thematic #one:before {
-    content: "thematic";
+.xtravaganza #one:before {
+    content: "XTRAVAGANZA";
 }
 
-.thematic #one {
+.thematic #one:before {
+    content: "THEMATIC";
+}
+
+.trashion #one:before {
+    content: "TRASHION";
+}
+
+.mr #one:before {
+    content: "MR. & MS. XAVOTSAV";
+    font-size: 16px;
+}
+
+.highlights #one:before {
+    content: "HIGHLIGHTS";
+}
+
+.main-texts #one {
     font-size: 30px;
 }
 
@@ -297,4 +314,15 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

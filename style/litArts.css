@@ -133,13 +133,30 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
-
+.comp #one:before {
+    content: "X-COMPOSE";
+}
 .conf #one:before {
-    content: "conf";
+    content: "CON-FICTION";
+}
+.spell #one:before {
+    content: "X-SPELL";
+}
+.lexi #one:before {
+    content: "LEXICON";
+}
+.plain #one:before {
+    content: "X-PLAIN";
+}
+.scratch #one:before {
+    content: "SCRATCH-TO-START";
+}
+.scripted #one:before {
+    content: "SCRIPTED";
 }
 
-.conf #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -297,4 +314,14 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

@@ -133,13 +133,46 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
-
+.mono #one:before {
+    content: "MONOCHROME";
+}
 .facade #one:before {
-    content: "facade";
+    content: "FACADE";
+}
+.xcons #one:before {
+    content: "X-CONSTRUCT";
+}
+.ori #one:before {
+    content: "ORIGAMI";
+}
+.wit #one:before {
+    content: "WIT-WAG";
+}
+.paint #one:before {
+    content: "PAINT THE SPOT";
+}
+.color #one:before {
+    content: "COLOURAMA";
+}
+.pen #one:before {
+    content: "FOOD-FOR-THOUGHT";
+    font-size: 18px;
+}
+.nail #one:before {
+    content: "NAIL-IT";
+}
+.grafi #one:before {
+    content: "GRAFI-TEE";
+}
+.xpres #one:before {
+    content: "X-PRESSIONISM";
+}
+.flash #one:before {
+    content: "FLASH ART";
 }
 
-.facade #one {
-    font-size: 30px;
+.main-texts #one {
+    font-size: 20px;
 }
 
 #one {
@@ -299,4 +332,13 @@ span:hover, li:hover {
     font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: -3rem;
+}
+.titleDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}
+.titleDiv h1 {
+    font-size: 5rem !important;
 }

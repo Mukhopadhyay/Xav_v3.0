@@ -20,6 +20,7 @@ body {
 /*LOGO CSS*/
 
 .logoLink {
+    position: fixed;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -28,15 +29,17 @@ body {
 
 .xavLogo {
     width: 50px;
+    position: fixed;
 }
 
 .logoText {
+    position: fixed!important;
     font-family: 'Dancing Script';
     color: white;
     font-size: 2rem;
     position: absolute;
-    top: 0px;
-    left: 50px;
+    top: 15px;
+    left: 80px;
 }
 
 /*LOGO CSS END*/
@@ -145,6 +148,7 @@ body {
 }
 
 .sidenav {
+    position: fixed!important;
     background-color: rgb(211, 238, 113);
 }
 

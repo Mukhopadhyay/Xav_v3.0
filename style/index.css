@@ -343,7 +343,7 @@
 
 @media (max-width: 320px) {
     .dateXavotsav {
-        background-image: url('../images/png/Date.png');
+        background-image: url('../images/png/date.png');
         margin-right: -1.2rem!important;
         margin-bottom: -6.9rem!important;
     }
@@ -351,7 +351,7 @@
 
 @media (max-width: 360px) {
     .dateXavotsav {
-        background-image: url('../images/png/Date.png');
+        background-image: url('../images/png/date.png');
         margin-right: -2rem!important;
         margin-bottom: -6rem!important;
         
@@ -360,7 +360,7 @@
 
 @media (max-width: 375px) {
     .dateXavotsav {
-    
+        background-image: url('../images/png/date.png');
         margin-right: -0.5rem!important;
         margin-bottom: -5rem;
         
@@ -369,7 +369,7 @@
 
 @media ( max-width: 411px) {
     .dateXavotsav {
-        background-image: url('../images/png/Date.png');
+        background-image: url('../images/png/date.png');
         bottom: 35px!important;
         margin-right: 5px;
     }
@@ -377,7 +377,7 @@
 
 @media (max-width: 750px) {
     .dateXavotsav {
-        background-image: url('../images/png/Date.png');
+        background-image: url('../images/png/date.png');
         right: -90px;
         bottom: -30px;
     }
@@ -632,9 +632,6 @@
     margin-top: -7rem !important;
     margin-bottom: 10rem !important;
     font-size: 3rem;
-}
-
-.sectionHeader h3 {
     font-family: 'Dancing Script';
 }
 
@@ -645,8 +642,7 @@
 
 @media (max-width: 320px) {
     .eventDesc {
-        margin: 0.5rem;
-        
+        margin: 0.2rem;
     }
 }
 
@@ -871,8 +867,9 @@
 @media (max-width: 320px) {
     
 .eventName {
-    font-size: 2.5rem;
-    margin-top: 9.5rem!important;
+    font-size: 2.5rem!important;
+    /* margin-top: 12rem!important; */
+    margin-bottom: -2rem;
     }
 }
 
@@ -1232,9 +1229,31 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 @media (max-width: 320px) {
     .aftermovieHeading {
         font-size: 2.5rem;
-        margin-top: 5rem;
+        margin-top: -6rem;
     }
 }
+
+/* @media (max-width: 360px) {
+    .aftermovieHeading {
+        font-size: 2.5rem;
+        margin-top: -6rem;
+    }
+} */
+
+/* @media (max-width: 375px) {
+    .aftermovieHeading {
+        font-size: 2.5rem;
+        margin-top: -6rem;
+    }
+} */
+
+
+/* @media (max-width: 411px) {
+    .aftermovieHeading {
+        font-size: 2.5rem;
+        margin-top: -1rem;
+    }
+} */
 
 .secAfterMovie h3 {
     margin-bottom: 5rem;
@@ -1247,7 +1266,7 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
 @media (max-width: 320px) {
     .afterMovieText {
         font-size: 0.9rem;
-        margin-top: -5rem;
+        margin-top: -5.5rem!important;
         margin-right: 3rem;
     }
     
@@ -1273,19 +1292,174 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     
 }
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
     .afterMovieText {
         
-        margin-top: -4rem;
+        margin-top: -5rem;
         margin-right: 3rem;
         margin-bottom: 0.5rem;
     }
     
-}
+} */
+
+
 
 
 
 /*Play Button*/
+
+body {
+    background: #222;
+  }
+  
+  .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+  }
+  
+  .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #ba1f24;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  
+  .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fa183d;
+    border-radius: 50%;
+    transition: all 200ms;
+  }
+  
+  .video-play-button:hover:after {
+    background-color: darken(#fa183d, 10%);
+  }
+  
+  .video-play-button img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+      border-top: 22px solid transparent;
+      border-bottom: 22px solid transparent;
+  }
+  
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 320px) {
+      .video-play-button {
+          margin-top: -5rem!important;
+      }
+  }
+  @media (max-width: 360px) {
+    .video-play-button {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .video-play-button {
+        margin-top: 7rem!important;
+    }
+}
+
+@media (max-width: 411px) {
+    .video-play-button {
+        margin-top: 8rem;
+    }
+}
+  
+  
+  .video-overlay {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.80);
+    opacity: 0;
+    transition: all ease 500ms;
+  }
+  
+  .video-overlay.open {
+    position: fixed;
+    z-index: 1000;
+    opacity: 1;
+  }
+  
+  .video-overlay-close {
+    position: absolute;
+    z-index: 1000;
+    top: 15px;
+    right: 20px;
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 200ms;
+  }
+  
+  .video-overlay-close:hover {
+    color: #fa183d;
+  }
+  
+  .video-overlay iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* width: 90%; */
+    /* height: auto; */
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+  }
 
 .container-play {
     width: 5%;

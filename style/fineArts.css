@@ -292,3 +292,11 @@ span:hover, li:hover {
     transition-duration: .4s;
     color: black;
 }
+
+.themeDiv {
+    font-family: 'Dancing Script';
+    color: white;
+    font-weight: bolder;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+}

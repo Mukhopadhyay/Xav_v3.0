@@ -298,3 +298,9 @@ table, th, td {
     margin-left: 3rem !important;
     margin-right: 1rem;
 }
+
+.noticeWrapper {
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+}

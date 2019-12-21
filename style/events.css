@@ -78,3 +78,11 @@
         opacity: 1;
     }
 }
+.carousel-item h2 {
+    font-family: 'Dancing Script';
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+    font-family: 'Dancing Script';
+}

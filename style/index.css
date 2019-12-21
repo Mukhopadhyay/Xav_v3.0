@@ -692,14 +692,22 @@
 }
 
 @media(max-width: 320px) {
-    .secAfterMovie .aftermovieHeading {
+    /* .secAfterMovie  {
         font-size: 1.5rem;
-        margin-top: -2rem !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 2rem!important;
+    }
+
+    .aftermovieHeading {
+        margin-top: 1rem !important;
+        font-size: 1.5rem;
+        margin-bottom: -4rem!important;
+
     }
     .secAfterMovie .afterMovieText {
         text-align: center;
         font-size: .8rem;
-    }
+    } */
     .sec3 .contactUs .eventButton {
         display: none;
     }
@@ -717,6 +725,7 @@
 }
 
 @media(max-width: 360px) {
+
     .sec3 .contactUs .eventButton {
         display: none;
     }
@@ -724,6 +733,17 @@
 }
 
 @media(max-width: 375px) {
+
+
+
+    .aftermovieHeading {
+        margin-top: 2rem !important;
+        font-size: 1.5rem;
+        margin-bottom: 3rem!important;
+
+    }
+    
+
     .sec3 .contactUs .eventButton {
         display: none;
     }
@@ -1229,6 +1249,7 @@
     }
 }
 
+/*After Movie Section*/
 
 .secAfterMovie {
     text-align: justify;
@@ -1243,19 +1264,6 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     font-size: 3rem;
     margin-top: -2rem !important;
 }
-
-@media (max-width: 320px) {
-    .aftermovieHeading {
-        font-size: 2.5rem !important;
-    }
-}
-
-/* @media (max-width: 360px) {
-    .aftermovieHeading {
-        font-size: 2.5rem;
-        margin-top: -6rem;
-    }
-} */
 
 /* @media (max-width: 375px) {
     .aftermovieHeading {
@@ -1280,35 +1288,30 @@ background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%,#b8c6db 40% );
     top: 2rem;
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .afterMovieText {
         font-size: 0.9rem;
-        margin-top: 1rem !important;
+        margin-top: -3rem !important;
         margin-right: 3rem;
     }
     
-}
+} */
 
 @media (max-width: 360px) {
     .calendar {
         left: 10% !important;
     }
-    .afterMovieText {
-        font-size: 0.9rem;
-        margin-top: 1rem !important;
-        margin-right: 3rem;
-        margin-bottom: 0.5rem;
-    }
+    
     
 }
 
 @media (max-width: 375px) {
-    .afterMovieText {
+    /* .afterMovieText {
         font-size: 0.9rem;
         margin-top: -4rem;
         margin-right: 3rem;
         margin-bottom: 0.5rem;
-    }
+    } */
     
 }
 
@@ -1416,13 +1419,41 @@ body {
           left: 5% !important;
           top: 75px !important;
       }
-      .video-play-button {
-          margin-top: -5rem!important;
-      }
+
+      .aftermovieHeading {
+        font-size: 2.5rem !important;
+    }
+
+      .aftermovieHeading {
+        margin-top: -3rem !important;
+        font-size: 1.5rem;
+        margin-bottom: 3rem!important;
+
+    } 
+      .afterMovieText {
+        font-size: 0.9rem;
+        margin-top: 1rem !important;
+        margin-right: 3rem;
+        margin-bottom: -1rem!important;
+    }
+
+      /* .playDiv {
+          margin-top: -3rem!important;
+      } */
   }
   @media (max-width: 360px) {
-    .video-play-button {
-        margin-top: 2rem;
+
+    .aftermovieHeading {
+        font-size: 2.5rem !important;
+    }
+    .afterMovieText {
+        font-size: 0.9rem;
+        margin-top: 1rem !important;
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    .playDiv {
+        margin-top: -2rem!important;
     }
 }
 
@@ -1488,7 +1519,7 @@ body {
     box-shadow: 0 0 15px rgba(0,0,0,0.75);
   }
 
-.container-play {
+/* .container-play {
     width: 5%;
     align-content: center;
     text-align: center;
@@ -1509,25 +1540,25 @@ body {
         margin-left: 15%!important;
     }
     
-}
+} */
 
-@media (max-width: 375px){
-    .container-play {
+/* @media (max-width: 375px){
+    .container-play { */
         /* margin-top: -0.01rem!important; */
-        margin-left: 22%!important;
+        /* margin-left: 22%!important;
     }
     
-}
+} */
 
-@media (max-width: 414px){
-    .container-play {
+/* @media (max-width: 414px){
+    .container-play { */
         /* margin-top: -0.01rem!important; */
-        margin-left: 25%!important;
+        /* margin-left: 25%!important;
     }
     
-}
+} */
 
-@media (max-width: 575px){
+/* @media (max-width: 575px){
     .container-play {
         margin-top: 3rem;
         margin-left: 33%;
@@ -1541,7 +1572,7 @@ body {
         margin-left: 26%;
     }
     
-}
+} */
 
 /* @media (max-width: 920px) {
     .container-play {
@@ -1568,7 +1599,7 @@ body {
     }
 } */
 
-.circle {
+/* .circle {
     stroke: #6628f8;
     stroke-dasharray: 650;
     stroke-dashoffset: 650;
@@ -1576,9 +1607,9 @@ body {
     opacity: 0.3;
 }
 
-.playBut {
+.playBut { */
     /*  border: 1px solid red;*/
-    display: inline-block;
+    /* display: inline-block;
     -webkit-transition: all 0.5s ease;
 }
 
@@ -1618,7 +1649,7 @@ body {
 .playBut:hover .circle {
     stroke-dashoffset: 0;
     opacity: 1;
-}
+} */
 
 /*Calendar CSS*/
 
@@ -1793,12 +1824,7 @@ body {
     height: 100vh;
 }
 
-.ourSponsors {
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-family: 'Dancing Script';
-}
+
 
 .wrap {
     overflow: hidden;
@@ -1917,6 +1943,23 @@ body {
 
 /*Sponsors*/
 
+
+.ourSponsors {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script';
+}
+
+@media (max-width: 320px) {
+    .ourSponsors {
+        font-size: 2.5rem;
+        margin-top: 4rem!important;
+        margin-bottom: 1.5rem;
+        
+    }
+} 
+
  .sponsorsShip1 {
     margin-left: -1rem!important;
 } 
@@ -1929,6 +1972,46 @@ body {
     margin-left: 5rem;
     margin-bottom: 1.5rem;
     width: 20%;
+}
+
+@media (max-width: 320px) {
+    .col-6 img {
+        margin-left: 5.5rem!important;
+        margin-bottom: 0.8rem;
+        width: 28%!important;
+    }
+}
+
+@media (max-width: 360px) {
+    .col-6 img {
+        margin-left: 6rem;
+        margin-bottom: 0.8rem;
+        width: 32%!important;
+    }
+}
+
+@media (max-width: 375px) {
+    .col-6 img {
+        margin-left: 6rem!important;
+        margin-bottom: 0.8rem;
+        width: 32%!important;
+    }
+}
+
+@media (max-width: 411px) {
+    .col-6 img {
+        margin-left: 6.5rem;
+        margin-bottom: 0.8rem;
+        width: 35%!important;
+    }
+}
+
+@media (max-width: 414px) {
+    .col-6 img {
+        margin-left: 6.5rem;
+        margin-bottom: 0.8rem;
+        width: 35%!important;
+    }
 }
 
 .circleLogo , .squareLogo {
@@ -1950,4 +2033,6 @@ body {
 .secAfterMovie .row {
     margin-top: -4rem !important;
 }
+
+
 

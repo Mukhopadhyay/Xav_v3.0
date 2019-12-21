@@ -311,8 +311,9 @@ html, body {
 }
 
 .untitled__slide:nth-child(1) .untitled__slideBg {
-    background-image: url("../images/pastLineup/euphoria.jpg");
+    background-image: url("../images/pastLineup/raghudixit.jpg");
 }
+
 
 .untitled__slide:nth-child(2) {
     -webkit-animation-delay: 5s;
@@ -320,7 +321,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(2) .untitled__slideBg {
-    background-image: url("../images/pastLineup/anirban.jpeg");
+    background-image: url("../images/pastLineup/papon.jpg");
 }
 
 .untitled__slide:nth-child(3) {
@@ -329,7 +330,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(3) .untitled__slideBg {
-    background-image: url("../images/pastLineup/parikrama.jpg");
+    background-image: url("../images/pastLineup/nucleya.jpg");
 }
 
 .untitled__slide:nth-child(4) {
@@ -338,7 +339,7 @@ html, body {
 }
 
 .untitled__slide:nth-child(4) .untitled__slideBg {
-    background-image: url("../images/pastLineup/stefen.png");
+    background-image: url("../images/pastLineup/agnee.jpg");
 }
 
 .untitled__slideBg {

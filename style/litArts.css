@@ -133,24 +133,31 @@ body {
     margin-top: 1rem;
     position: absolute;
 }
+
 .comp #one:before {
     content: "X-COMPOSE";
 }
+
 .conf #one:before {
     content: "CON-FICTION";
 }
+
 .spell #one:before {
     content: "X-SPELL";
 }
+
 .lexi #one:before {
     content: "LEXICON";
 }
+
 .plain #one:before {
     content: "X-PLAIN";
 }
+
 .scratch #one:before {
     content: "SCRATCH-TO-START";
 }
+
 .scripted #one:before {
     content: "SCRIPTED";
 }
@@ -322,6 +329,46 @@ span:hover, li:hover {
     margin-top: 5rem;
     margin-bottom: -3rem;
 }
+
 .titleDiv h1 {
     font-size: 5rem !important;
+}
+
+.poster {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+}
+
+.poster img {
+    width: 30%;
+}
+
+@media (max-width: 950px) {
+    .poster img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 630px) {
+    .poster img {
+        width: 55%;
+    }
+}
+
+@media (max-width: 530px) {
+    .poster img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .poster img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 360px) {
+    .poster img {
+        width: 80%;
+    }
 }

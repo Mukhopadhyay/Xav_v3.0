@@ -4,7 +4,7 @@ html, body {
     overflow: hidden;
 }
 
-.untitled {
+/* .untitled {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -91,7 +91,7 @@ html, body {
         -webkit-filter: hue-rotate(360deg);
         filter: hue-rotate(360deg);
     }
-}
+} */
 
 .untitled__shutters {
     position: absolute;
@@ -135,7 +135,8 @@ html, body {
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
-    background-color: #b3401a;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
     pointer-events: auto;
 }
 
@@ -257,7 +258,7 @@ html, body {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #b3401a;
+    /* background-color: #b3401a; */
 }
 
 .untitled__slide {
@@ -441,7 +442,7 @@ html, body {
 }
 
 .button {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: 'Alegreya Sans';
     text-decoration: none;
     font-weight: 800;
     text-transform: uppercase;

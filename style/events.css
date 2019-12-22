@@ -40,7 +40,7 @@
 /*Custom button*/
 
 .customButton {
-    font-family: 'Roboto';
+    font-family: 'Alegreya Sans';
     /* color: black; */
     text-decoration: none;
     padding: 0.6rem;
@@ -61,7 +61,7 @@
     text-decoration: none;
     border-radius: 0px;
     letter-spacing: 0.2rem;
-    transform: scale(1.3, 1.3);
+    transform: scale(1.1, 1.1);
     text-shadow: 0px 0px 0px black;
     /* color: white; */
     /* color: black; */
@@ -78,11 +78,13 @@
         opacity: 1;
     }
 }
-.carousel-item h2 {
+.display-4 {
     font-family: 'Dancing Script';
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
 .carousel-item p {
     font-size: 1.2rem;
     font-family: 'Dancing Script';
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }

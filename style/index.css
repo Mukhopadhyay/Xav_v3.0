@@ -438,11 +438,27 @@
     height: auto;
     transition: 1s;
     border-radius: 50%; 
+    animation-name: glow-img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .calenderPicture img:hover  {
     transform: scale(1.3,1.1) ;
     box-shadow: 0px 5px 10px;
+}
+
+@keyframes glow-img {
+    0% {
+        box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.924), 0px 0px 1px rgba(91, 147, 214, 0.829);
+    }
+    50% {
+        box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.966), 0px 0px 100px rgba(91, 147, 214, 0.829);
+    }
+    
+    100% {
+        box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.966), 0px 0px 1px rgba(91, 147, 214, 0.829);
+    }
 }
 
  .secCalendar .contactUs {
@@ -1105,7 +1121,7 @@
 }
 
 .icon-cards__item:nth-child(1) {
-    background-image: url('../images/galary/img1.jpg');
+    background-image: url('../images/gallery/img1.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1114,7 +1130,7 @@
 }
 
 .icon-cards__item:nth-child(2) {
-    background-image: url('../images/galary/img2.jpg');
+    background-image: url('../images/gallery/img2.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1123,7 +1139,7 @@
 }
 
 .icon-cards__item:nth-child(3) {
-    background-image: url('../images/galary/img3.jpg');
+    background-image: url('../images/gallery/img3.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

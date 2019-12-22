@@ -58,6 +58,7 @@
     transition: 1s;
     animation-name: change;
     animation-duration: 1.5s;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
 @keyframes change {
@@ -167,7 +168,7 @@
 /*Custom Button*/
 
 .customButton {
-    font-family: 'Roboto';
+    font-family: 'Alegreya Sans';
     /* color: black; */
     text-decoration: none;
     padding: 0.6rem;
@@ -187,7 +188,7 @@
     text-decoration: none;
     border-radius: 0px;
     letter-spacing: 0.2rem;
-    transform: scale(1.3, 1.3);
+    transform: scale(1.1, 1.1);
     text-shadow: 0px 0px 0px black;
     /* color: white; */
     /* color: black; */
@@ -203,14 +204,14 @@
     }
 }
 
-.sec1 .contactUs {
+.sec1 .contactUs  {
     position: absolute;
     left: 50px;
     bottom: -30% !important;
 }
 
 @media (max-width: 750px) {
-    .sec1 .contactUs {
+    .sec1 .contactUs , .secCalendar .contactUs {
         left: 25px;
         bottom: -90px;
         width: 8rem;
@@ -227,6 +228,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s;
+    
 }
 
 .social-wrapper {
@@ -311,8 +313,8 @@
     bottom: 0; */
     width: 15rem;
     height: 13rem;
-    right: 18px;
-    bottom: 18px;
+    right: 10px;
+    bottom: 10px;
     animation-name: fadeInOut;
     animation-duration: 5s;
     animation-delay: 5s;
@@ -334,7 +336,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px)  {
     .dateXavotsav {
         background-image: url('../images/png/date.png');
         margin-right: -1.2rem!important;
@@ -427,6 +429,26 @@
     font-size: 1rem;
 }
 
+.calenderPicture img {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    border-radius: 50%; 
+}
+
+.calenderPicture img:hover  {
+    transform: scale(1.3,1.1) ;
+    box-shadow: 0px 5px 10px;
+}
+
+ .secCalendar .contactUs {
+    margin: 2rem!important;
+ }
+
 .calender-text {
     position: absolute;
     right: 10%;
@@ -465,6 +487,7 @@
     font-size: 3rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 320px) {
@@ -625,8 +648,9 @@
 .eventDesc {
     margin-top: 3rem;
     font-size: 1.2rem;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
-
+/* 
 @media (max-width: 320px) {
     .eventDesc {
         margin: 0.2rem;
@@ -649,12 +673,12 @@
     .eventDesc {
         margin-top: 1rem;
     }
-}
+} */
 
 .eventButtonDiv {
     position: absolute;
-    left: -1%;
-    top: 30%;
+    left: 1%;
+    top: 35%;
     bottom: 50%;
     margin-top: 1rem;
     z-index: 1;
@@ -699,7 +723,7 @@
         width: 50%;
     }
     .eventName {
-        margin-bottom: 1rem !important;
+        margin: 0.5rem !important;
     }
     .eventDesc {
         margin-top: 1rem;
@@ -992,6 +1016,7 @@
     color: white;
     font-family: 'Dancing Script';
     font-size: 2.5rem;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 320px) {
@@ -1349,12 +1374,14 @@
     font-size: 1rem;
     background-color: #b8c6db;
     background-image: linear-gradient(330deg, #b8c6db 0%, #f5f7fa 74%, #b8c6db 40%);
+    
 }
 
 .aftermovieHeading {
     font-family: 'Dancing Script';
     font-size: 3rem;
     margin-top: -2rem !important;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 }
 
 /* @media (max-width: 375px) {
@@ -1824,19 +1851,22 @@ body {
 .calIntro {
     color: white;
     font-size: 3rem;
-    margin-top: -17rem;
+    margin-top: 4rem;
     font-family: 'Dancing Script';
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+    
 }
 
-@media (max-width: 320px) {
+
+/* @media (max-width: 320px) {
     .calIntro {
         font-size: 2rem;
         margin-top: -13rem;
     }
-}
+} */
 
 .secCalendar {
-    background: url('../images/background/back1darker.jpg');
+    background: url('../images/png/Image\ -1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1981,6 +2011,7 @@ body {
     margin-top: 3rem;
     margin-bottom: 2rem;
     font-family: 'Dancing Script';
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 320px) {
@@ -2076,3 +2107,4 @@ body {
 .flickity-viewport {
     height: 400px !important;
 }
+

@@ -52,6 +52,7 @@ body {
     transition: 1s;
     animation-name: change;
     animation-duration: 1.5s;
+    text-shadow: rgba(0,0,0,1);
 }
 
 @keyframes change {

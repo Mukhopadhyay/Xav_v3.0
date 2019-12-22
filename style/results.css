@@ -28,8 +28,14 @@
 /*LOGO CSS END*/
 
 body {
-    background-color: #7f5a83;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+/*  */
+/* background-color: #fce055;
+background-image: linear-gradient(319deg, #fce055 0%, #0f3581 37%, #46237a 100%); */
+
+/* background-color: #44b09e;
+background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;

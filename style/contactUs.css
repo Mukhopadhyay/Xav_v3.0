@@ -42,12 +42,14 @@ body {
     font-size: 4rem;
     font-weight: bold;
     font-family: 'Dancing Script';
+    text-shadow: rgba(0,0,0,1);
 }
 
 .wrapper {
     margin-top: 3rem;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+    /* padding-bottom: 2rem;
+    padding-top: 1rem; */
+    padding: 3rem;
     background-color: rgba(0, 0, 0, .8);
 }
 
@@ -58,15 +60,20 @@ body {
     margin-bottom: 1rem;
 }
 
-.col-12 a {
+.col-12 a, h2 {
     color: #f1f1f1;
-    transition-duration: .1s;
+    transition-duration: .5s;
 }
-.col-12 a:hover {
+.col-12 h2:hover {
     color: #f1f1f1;
     text-decoration: none;
     letter-spacing: 2px;
     transition-duration: .3s;
+}
+
+.col-12 a:hover {
+    text-decoration: none;
+    color: blueviolet;
 }
 
 /* SOCIAL ICONS */
@@ -81,12 +88,13 @@ body {
 .social-wrapper {
     z-index: 99999;
     position: absolute;
-    top: 32%;
-    left: 0%;
+    top: 35%;
+    left: 3%;
     font-size: 50px;
     width: 50px;
     border-radius: 30px;
 }
+
 
 .social-wrapper a {
     margin: 10px;

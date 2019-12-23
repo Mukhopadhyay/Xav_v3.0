@@ -224,7 +224,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.masala-dance {
+.mattermind-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -261,7 +261,7 @@ span:hover, li:hover {
     }
 }
 
-.round, .mattermind, .glitch, .freq {
+.round, .masala, .glitch, .freq {
     display: none;
 }
 

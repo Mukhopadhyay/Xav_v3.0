@@ -223,7 +223,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.nach-dance {
+.navrath-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -262,7 +262,7 @@ span:hover, li:hover {
     }
 }
 
-.ghun, .jazz, .rip, .navrath {
+.ghun, .jazz, .rip, .nach {
     display: none;
 }
 

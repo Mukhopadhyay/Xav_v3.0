@@ -217,7 +217,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.killer-dance {
+.serve-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -254,7 +254,7 @@ span:hover, li:hover {
     }
 }
 
-.dunkerk, .serve, .con, .freq {
+.dunkerk, .killer {
     display: none;
 }
 

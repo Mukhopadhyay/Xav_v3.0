@@ -50,7 +50,7 @@ body {
     margin-top: 3rem;
     /* padding-bottom: 2rem;
     padding-top: 1rem; */
-    padding: 3rem;
+    padding: 2rem;
     background-color: rgba(0, 0, 0, .8);
 }
 
@@ -65,12 +65,12 @@ body {
     color: #f1f1f1;
     transition-duration: .5s;
 }
-.col-12 h2:hover {
+/* .col-12 h2:hover {
     color: #f1f1f1;
     text-decoration: none;
     letter-spacing: 2px;
     transition-duration: .3s;
-}
+} */
 
 .col-12 a:hover {
     text-decoration: none;

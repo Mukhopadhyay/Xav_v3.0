@@ -136,3 +136,10 @@ body {
 .row div {
     margin-bottom: 2rem;
 }
+
+@media (min-width: 1200px) {
+    .tes {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+}

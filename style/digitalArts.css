@@ -236,7 +236,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.sell-dance {
+.posure-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -274,7 +274,7 @@ span:hover, li:hover {
     }
 }
 
-.posure, .recce, .poster, .gif, .mini, .hunt, .cut, .depiction, .grafi, .xpres, .flash {
+.sell, .recce, .poster, .gif, .mini, .hunt, .cut, .depiction, .grafi, .xpres, .flash {
     display: none;
 }
 
@@ -332,4 +332,43 @@ span:hover, li:hover {
 }
 .titleDiv h1 {
     font-size: 5rem !important;
+}
+
+.ePoster {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+}
+
+.ePoster img {
+    width: 30%;
+}
+
+@media (max-width: 950px) {
+    .ePoster img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 630px) {
+    .ePoster img {
+        width: 55%;
+    }
+}
+
+@media (max-width: 530px) {
+    .ePoster img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .ePoster img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 360px) {
+    .ePoster img {
+        width: 80%;
+    }
 }

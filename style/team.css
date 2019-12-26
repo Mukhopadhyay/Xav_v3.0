@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700i|Dancing+Script|Roboto&display=swap');
 * {
-    font-family: 'Roboto';
+    font-family: ' Avenier Next';
 }
 
 body {
@@ -286,25 +286,3 @@ h4, h5 {
     margin-bottom: 6rem;
 }
 
-.partnership, .contactUs {
-    font-family: Roboto!important;
-}
-
-.heading {
-    text-shadow: rgba(0,0,0,1);
-}
-
-@media (max-width: 450px) {
-    .heading {
-        font-size: 1.5rem;
-    }
-    .member {
-        width: 80px;
-    }
-    h5 {
-        font-size: .8rem;
-    }
-    p {
-        font-size: .6rem;
-    }
-}

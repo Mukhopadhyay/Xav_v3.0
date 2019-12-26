@@ -1,23 +1,50 @@
 /*Footer*/
 
-.partnership, .contactUs {
+.partnership , .contactUs, .eventQueries, .teamRegistrationQueries  {
+
     color: white;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    
 }
 
-.text-heading {
+.partnership a , .contactUs a, .eventQueries a, .teamRegistrationQueries a {
+
+    color: white;
+    text-align: left;
+    transition: 0.5s;
+  
+    /* margin-top: rem; */
+    
+}
+
+.col-12 a:hover {
+
+    color: rgb(37, 8, 8);
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 0px 1px 1px rgba(0,0,0,1);
+    text-decoration: none;
+    /* margin-top: rem; */
+    
+}
+
+.text-heading
+{
     transition: 0.5s;
 }
 
 .text-heading:hover {
+
     letter-spacing: 0.1rem;
 }
 
 .social-wrapper {
+
     text-align: center;
     font-size: 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
+   
 }
 
 .social-wrapper i {
@@ -32,11 +59,14 @@
 }
 
 .social-wrapper i:hover {
+
     opacity: 1;
     border-color: white!important;
 }
 
-.followUs {
+
+.followUs
+{
     font-size: 1rem;
     text-align: center;
     width: 10rem;
@@ -47,9 +77,14 @@
     transition: 0.5s;
 }
 
-.followUs:hover {
+.followUs:hover
+{
     color: white;
     letter-spacing: 0.1rem;
     background-color: transparent;
     box-shadow: white;
+    
+}
+.navWrapper {
+    position: fixed!important;
 }

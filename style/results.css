@@ -29,7 +29,7 @@
 
 body {
     background-color: #0cbaba;
-background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 /*  */
 /* background-color: #fce055;
 background-image: linear-gradient(319deg, #fce055 0%, #0f3581 37%, #46237a 100%); */
@@ -47,7 +47,22 @@ background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     margin-top: 15rem;
     position: relative;
     top: 50%;
+    margin-bottom: 5rem;
     text-align: center;
+    animation-name: spaceIn;
+    animation-duration: 2s;
+}
+
+@keyframes spaceIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #loader {

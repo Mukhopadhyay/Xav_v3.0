@@ -129,7 +129,7 @@ body {
 }
 
 #one:before {
-    content: "X-Y";
+    content: "SANSAD";
     margin-top: 1rem;
     position: absolute;
 }
@@ -320,5 +320,11 @@ span:hover, li:hover {
 @media (max-width: 360px) {
     .poster img {
         width: 80%;
+    }
+}
+
+@media (max-width: 380px) {
+    .circle {
+        margin-left: -1.1rem !important;
     }
 }

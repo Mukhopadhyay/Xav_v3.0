@@ -120,4 +120,7 @@ iframe {
         width: 560px;
         height: 315px;
     }
+    .about-text {
+        font-size: 1.1rem;
+    }
 }

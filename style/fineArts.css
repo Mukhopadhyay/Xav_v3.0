@@ -266,8 +266,6 @@ span:hover, li:hover {
     .container-text {
         margin-left: 2rem;
         margin-right: 2rem;
-    }
-    .mono-body-text {
         font-size: .6rem;
         line-height: 1.2rem;
     }
@@ -379,5 +377,10 @@ span:hover, li:hover {
 @media (max-width: 360px) {
     .poster img {
         width: 80%;
+    }
+}
+@media (max-width: 380px) {
+    .circle {
+        margin-left: -1.1rem !important;
     }
 }

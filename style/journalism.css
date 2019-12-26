@@ -346,3 +346,8 @@ span:hover, li:hover {
         width: 80%;
     }
 }
+@media (max-width: 380px) {
+    .circle {
+        margin-left: -1.1rem !important;
+    }
+}

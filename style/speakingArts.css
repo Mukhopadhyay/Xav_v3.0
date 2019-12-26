@@ -232,7 +232,7 @@ span:hover, li:hover {
     color: white;
 }
 
-.channel-dance {
+.pass-dance {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -269,7 +269,7 @@ span:hover, li:hover {
     }
 }
 
-.verse, .pose, .war, .pass, .spot {
+.verse, .pose, .war, .channel, .spot {
     display: none;
 }
 
@@ -358,5 +358,10 @@ span:hover, li:hover {
 @media (max-width: 360px) {
     .poster img {
         width: 80%;
+    }
+}
+@media (max-width: 380px) {
+    .circle {
+        margin-left: -1.1rem !important;
     }
 }

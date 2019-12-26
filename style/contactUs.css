@@ -90,7 +90,7 @@ body {
     z-index: 99999;
     position: absolute;
     top: 35%;
-    left: 3%;
+    left: -5px;
     font-size: 50px;
     width: 50px;
     border-radius: 30px;
@@ -98,12 +98,7 @@ body {
 
 
 .social-wrapper a {
-    margin: 10px;
-}
-
-.social-wrapper i {
-    padding-bottom: 3rem!important;
-    margin-bottom: -1rem;
+    margin-bottom: 10px;
 }
 
 .splash .social {
@@ -111,6 +106,7 @@ body {
 }
 
 .social-wrapper a:hover {
+    color: white !important;
     transition-duration: 0.8s;
     opacity: 1;
 }
@@ -138,6 +134,7 @@ body {
 @media (max-width: 375px) {
     .social-wrapper i {
         font-size: 45px;
+        left: 10px !important;
         /* margin-bottom: -2rem; */
     }
 }
@@ -146,4 +143,21 @@ body {
 
 #loader{
     margin-top: -5rem;
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 2rem !important;
+    }
+    .wrapper h3 {
+        font-size: 1.2rem !important;
+    }
+    .wrapper .row .col-12 {
+        font-size: .8rem !important;
+    }
+}
+
+.row a:hover{
+    color: white !important;
+    letter-spacing: 1.2px;
 }

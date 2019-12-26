@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
 * {
-    font-family: 'Roboto';
+    font-family: 'Futura Medium';
 }
 
 /*
@@ -462,7 +462,16 @@
 }
 
  .secCalendar .contactUs {
-    margin: 2rem!important;
+    margin-top: 0.5rem;
+    margin-left: 2rem!important;
+  
+ }
+
+ @media (max-width: 320px) {
+    .secCalendar .contactUs {
+        display: none;
+      
+     }
  }
 
 .calender-text {

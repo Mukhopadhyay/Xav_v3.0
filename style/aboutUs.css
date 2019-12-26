@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
 * {
-    font-family: 'Roboto';
+    font-family: 'Avenier Next';
 }
 
 #loader {
@@ -48,7 +48,7 @@ body {
 {
     font-family: 'Dancing Script';
     font-size: 3rem;
-    margin: 2rem;
+    margin: 1rem;
     transition: 1s;
     animation-name: change;
     animation-duration: 1.5s;
@@ -72,6 +72,7 @@ body {
 .about-text
 {
     font-size: 0.9rem;
+    font-family: ' Avenier Next';
 }
 
 @media (max-width: 800px) {
@@ -82,72 +83,21 @@ body {
     }
 }
 
-/*Footer*/
-
-.partnership , .contactUs {
-
-    color: white;
+.about-theme {
     text-align: center;
-    margin-top: 4rem;
-    
+    color: white;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.5);
 }
 
-.text-heading
-{
+.about-theme a {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin: 1rem;
     transition: 0.5s;
 }
 
-.text-heading:hover {
-
-    letter-spacing: 0.1rem;
-}
-
-.social-wrapper {
-
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 4rem;
-   
-}
-
-.social-wrapper i {
-    color: white;
-    opacity: 0.6;
-    padding-top: 0.8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    transition: 1s;
-    animation-name: change;
-    animation-duration: 3.5s;
-}
-
-.social-wrapper i:hover {
-
-    opacity: 1;
-    border-color: white!important;
-}
-
-
-.followUs
-{
-    font-size: 1rem;
-    text-align: center;
-    width: 10rem;
-    padding: 0.2rem;
-    margin-bottom: 2rem;
-    border-radius: 20px 20px 20px;
-    background-color: white;
-    transition: 0.5s;
-}
-
-.followUs:hover
-{
-    color: white;
-    letter-spacing: 0.1rem;
-    background-color: transparent;
-    box-shadow: white;
-    
-}
-.navWrapper {
-    position: fixed!important;
+.about-theme a:hover {
+    opacity: 0.5;
 }

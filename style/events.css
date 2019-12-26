@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
+@font-face {
+    font-family: 'Avenier Next';
+    src: url('../font/AvenirNextLTPro-Cn.otf');
+}
 * {
-    font-family: 'Roboto';
+    font-family: 'Avenier Next';
 }
 
 /*Full page carousel*/
@@ -84,7 +88,28 @@
 }
 
 .carousel-item p {
-    font-size: 1.2rem;
-    font-family: 'Dancing Script';
+    font-size: .7rem;
+    font-family: 'Avenier Next';
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 1920px) {
+    .carousel-item p {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 730px) {
+    .carousel-item p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 515px) {
+    .carousel-item p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    .carousel-item p {
+        font-size: .8rem;
+    }
 }

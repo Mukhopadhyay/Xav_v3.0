@@ -488,6 +488,10 @@ html, body {
     margin-top: 0rem;
 }
 
-.navItems {
-    z-index: 999;
+.navWrapper .nav-icon2 span {
+    color: white;
+}
+
+.navItems #mySidenav{
+    z-index: 999999;
 }

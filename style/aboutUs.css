@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
+@font-face {
+    font-family: 'Avenier Next';
+    src: url('../font/AvenirNextLTPro-Cn.otf');
+}
 * {
     font-family: 'Avenier Next';
 }
@@ -29,7 +33,7 @@ body {
 }
 
 .logoText {
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script' !important;
     color: white;
     font-size: 2rem;
     position: absolute;
@@ -46,7 +50,7 @@ body {
 
 .aboutXavo
 {
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script' !important;
     font-size: 3rem;
     margin: 1rem;
     transition: 1s;
@@ -72,7 +76,7 @@ body {
 .about-text
 {
     font-size: 0.9rem;
-    font-family: ' Avenier Next';
+    font-family: 'Avenier Next';
 }
 
 @media (max-width: 800px) {
@@ -100,4 +104,20 @@ body {
 
 .about-theme a:hover {
     opacity: 0.5;
+}
+
+iframe {
+    width: inherit;
+}
+
+@media (max-width: 420px) {
+    iframe {
+        width: inherit;
+    }
+}
+@media (min-width: 750px) {
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
 }

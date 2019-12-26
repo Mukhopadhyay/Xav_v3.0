@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
+@font-face {
+    font-family: 'Avenier Next';
+    src: url('../font/AvenirNextLTPro-Cn.otf');
+}
 * {
-    font-family: 'Futura Medium';
+    font-family: 'Avenier Next';
 }
 
 /*
@@ -16,6 +20,7 @@
     background-origin: border-box;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .splash-wrapper {
@@ -206,14 +211,20 @@
 
 .sec1 .contactUs  {
     position: absolute;
-    left: 50px;
-    bottom: -30% !important;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.secCalendar .contactUs {
+    position: fixed;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
 }
 
 @media (max-width: 750px) {
     .sec1 .contactUs , .secCalendar .contactUs {
-        left: 25px;
-        bottom: -90px;
         width: 8rem;
         font-size: 15px;
     }
@@ -223,7 +234,7 @@
 
 /* SOCIAL ICONS */
 
-.fa-facebook-f, .fa-twitter, .fa-instagram {
+.sec1 .fa-facebook-f, .sec1 .fa-twitter, .sec1 .fa-instagram {
     background-image: linear-gradient(to left, #f1f335, transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -444,7 +455,6 @@
 }
 
 .calenderPicture img:hover  {
-    transform: scale(1.3,1.1) ;
     box-shadow: 0px 5px 10px;
 }
 
@@ -470,7 +480,6 @@
  @media (max-width: 320px) {
     .secCalendar .contactUs {
         display: none;
-      
      }
  }
 
@@ -2133,3 +2142,43 @@ body {
     height: 400px !important;
 }
 
+.socialSmall {
+    position: fixed;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.sec4 {
+    color: white !important;
+}
+.socialSmall i {
+    margin-right: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    transition-duration: .1s;
+    opacity: .8;
+}
+.socialSmall i:hover {
+    transition-duration: .2s;
+    transform: scale(2);
+    opacity: 1;
+}
+.flickity-button {
+    display: none;
+}
+
+@media (max-width: 380px) {
+    #particles-js {
+       display: none; 
+    }
+    .sec1Wrapper {
+        margin-top: -10rem;
+    }
+    .main-description {
+        font-size: 1.2rem;
+    }
+    .sec1 .contactUs {
+        position: fixed;
+        bottom: 20px !important;
+    }
+}

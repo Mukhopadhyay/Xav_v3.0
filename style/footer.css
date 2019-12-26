@@ -11,6 +11,7 @@
 .partnership a , .contactUs a, .eventQueries a, .teamRegistrationQueries a {
 
     color: white;
+    opacity: .7;
     text-align: left;
     transition: 0.5s;
   
@@ -18,13 +19,13 @@
     
 }
 
-.col-12 a:hover {
-
-    color: rgb(37, 8, 8);
+.partnership a:hover , .contactUs a:hover, .eventQueries a:hover, .teamRegistrationQueries a:hover {
     text-align: center;
-    color: blueviolet;
+    color: white;
+    opacity: 1;
     text-shadow: 0px 1px 1px rgba(0,0,0,1);
     text-decoration: none;
+    letter-spacing: 1px;
     /* margin-top: rem; */
     
 }
@@ -53,13 +54,13 @@
     padding-top: 0.8rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    transition: 1s;
+    transition: .3s;
     animation-name: change;
     animation-duration: 3.5s;
 }
 
 .social-wrapper i:hover {
-
+    transform: scale(1.5);
     opacity: 1;
     border-color: white!important;
 }

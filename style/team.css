@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:700i|Dancing+Script|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
+@font-face {
+    font-family: 'Avenier Next';
+    src: url('../font/AvenirNextLTPro-Cn.otf');
+}
 * {
-    font-family: ' Avenier Next';
+    font-family: 'Avenier Next';
 }
 
 body {
@@ -85,7 +89,7 @@ h4, h5 {
 }
 
 .hex2 img {
-    width: inherit;
+    width: 90%;
     transition-duration: .4s;
 }
 
@@ -286,3 +290,38 @@ h4, h5 {
     margin-bottom: 6rem;
 }
 
+@media (max-width: 420px) {
+    .member {
+        width: 100px;
+    }
+    .teameee h5{
+        font-size: .8rem;
+    }
+    .teameee p {
+        font-size: .6rem;
+    }
+    .teameee2 h5 {
+        font-size: .8rem;
+    }
+    .teameee2 p {
+        font-size: .6rem;
+    }
+    .teameee3 h5 {
+        font-size: .8rem;
+    }
+    .teameee3 p {
+        font-size: .6rem;
+    }
+    .teameee4 h5 {
+        font-size: .8rem;
+    }
+    .teameee4 p {
+        font-size: .6rem;
+    }
+    .teameee5 h5 {
+        font-size: .8rem;
+    }
+    .teameee5 p {
+        font-size: .6rem;
+    }
+}

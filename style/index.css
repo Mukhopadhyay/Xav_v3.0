@@ -2199,3 +2199,12 @@ body {
         bottom: 20px !important;
     }
 }
+
+@media (max-width: 450px) {
+    .calenderPicture img{
+        animation-name: none;
+    }
+    .container-timer .time div {
+        animation-name: none;
+    }
+}

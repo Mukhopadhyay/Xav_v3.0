@@ -3,10 +3,23 @@
     font-family: 'Avenier Next';
     src: url('../font/AvenirNextLTPro-Cn.otf');
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
+}
 * {
+    font-family: 'Raleway';
+}
+.sidenav a {
     font-family: 'Avenier Next';
 }
-
+.carousel-caption h2 {
+    font-family: 'Inspiration' !important;
+}
 /*Full page carousel*/
 
 .carousel-item {

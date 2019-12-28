@@ -3,10 +3,26 @@
     font-family: 'Avenier Next';
     src: url('../font/AvenirNextLTPro-Cn.otf');
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
+}
 * {
+    font-family: 'Raleway';
+}
+.container-custom .aboutXavo {
+    font-family: 'Inspiration' !important;
+}
+.about-text {
+    font-family: 'Raleway' !important;
+}
+.sidenav a {
     font-family: 'Avenier Next';
 }
-
 #loader {
     margin-top: -7rem;
 }

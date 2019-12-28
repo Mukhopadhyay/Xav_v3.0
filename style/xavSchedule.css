@@ -3,8 +3,25 @@
     font-family: 'Avenier Next';
     src: url('../font/AvenirNextLTPro-Cn.otf');
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
+}
 * {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
+}
+.btn-outline-light {
+    font-family: 'Avenier Next' !important;
+}
+.checkOut {
+    font-family: 'Inspiration' !important;
+}
+.sidenav a {
+    font-family: 'Avenier Next';
 }
 
 body {

@@ -3,10 +3,44 @@
     font-family: 'Avenier Next';
     src: url('../font/AvenirNextLTPro-Cn.otf');
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
+}
 * {
+    font-family: 'Raleway';
+}
+.sidenav a {
     font-family: 'Avenier Next';
 }
-
+.countdown {
+    font-family: 'Inspiration' !important;
+}
+.main-heading {
+    font-family: 'Inspiration' !important;
+}
+.btn-outline-light {
+    font-family: 'Avenier Next' !important;
+}
+.calIntro {
+    font-family: 'Inspiration' !important;
+}
+.ourSponsors {
+    font-family: 'Inspiration' !important;
+}
+.aftermovieHeading {
+    font-family: 'Inspiration' !important;
+}
+.eventName {
+    font-family: 'Inspiration' !important;
+}
+.carousel-cell h5 {
+    font-family: 'Raleway' !important;
+}
 /*
 
     SECTION - 1

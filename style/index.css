@@ -11,6 +11,14 @@
     font-family: 'Inspiration';
     src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
 }
+.ourSponsors {
+    font-family: 'Inspiration' !important;
+}
+
+.carousel-cell h5 {
+    font-family: 'Raleway' !important;
+}
+
 * {
     font-family: 'Raleway';
 }
@@ -29,18 +37,14 @@
 .calIntro {
     font-family: 'Inspiration' !important;
 }
-.ourSponsors {
-    font-family: 'Inspiration' !important;
-}
+
 .aftermovieHeading {
     font-family: 'Inspiration' !important;
 }
 .eventName {
     font-family: 'Inspiration' !important;
 }
-.carousel-cell h5 {
-    font-family: 'Raleway' !important;
-}
+
 /*
 
     SECTION - 1
@@ -187,18 +191,23 @@
 @media ( max-width: 320px) {
     .main-description {
         margin-top: 5rem;
+        margin-left: -0.5%!important;
+        font-size: 1.2rem!important;
     }
 }
 
 @media ( max-width: 360px) {
     .main-description {
         margin-top: 4rem;
+        margin-left: -0.5%!important;
+        font-size: 1.2rem!important;
     }
 }
 
 @media ( max-width: 411px) {
     .main-description {
-        margin-top: 4rem;
+        margin-top: 5rem;
+        font-size: 1.25rem!important;
     }
 }
 
@@ -238,7 +247,7 @@
         padding: 0.6rem;
         width: 10rem;
         font-size: 12px;
-        margin-top: 1rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
     }
 }
@@ -250,11 +259,36 @@
     left: 20px;
 }
 
+/* @media (max-height: 736px){ 
+    .sec1 .contactUs  {
+        
+        bottom: 20px!important;
+        left: 20px;
+    }
+}
+
+@media (max-height: 812px){ 
+    .sec1 .contactUs  {
+        
+        margin-bottom: 3.5rem;
+        left: 20px;
+    }
+}
+
+@media (max-height: 823px){ 
+    .sec1 .contactUs  {
+        position: absolute;
+        position: fixed;
+        bottom: 100px;
+        left: 20px;
+    }
+} */
+
 .secCalendar .contactUs {
     position: fixed;
     position: absolute;
     bottom: 20px;
-    left: 5px;
+    left: -13px;
 }
 
 @media (max-width: 750px) {
@@ -263,6 +297,16 @@
         font-size: 15px;
     }
 }
+/* @media (max-height: 823px) { 
+    .secCalendar .contactUs  {
+        position: fixed;
+        position: absolute;
+        bottom: 100px;
+        left: -12px;
+    }
+} */
+
+
 
 /*End of Custom Button*/
 
@@ -311,19 +355,26 @@
 
 @media (max-width: 320px) {
     .social-wrapper i {
-        font-size: 30px;
+        font-size: 40px!important;
         margin-bottom: -2rem;
     }
 }
 
 @media (max-width: 360px) {
     .social-wrapper i {
-        font-size: 45px;
+        font-size: 42px!important;
         margin-bottom: -2rem;
     }
 }
 
 @media (max-width: 375px) {
+    .social-wrapper i {
+        font-size: 45px;
+        /* margin-bottom: -2rem; */
+    }
+}
+
+@media (max-width: 411px) {
     .social-wrapper i {
         font-size: 45px;
         /* margin-bottom: -2rem; */
@@ -1974,9 +2025,10 @@ body {
 
 .sec4 {
     /* background: gray; */
-    background-color: #0cbaba;
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-    height: 100vh;
+    margin-top: 5rem;
+    background-color: transparent!important;
+    width: 98%;
+    height: 140vh;
 }
 
 .wrap {
@@ -2194,20 +2246,24 @@ body {
 }
 
 .socialSmall {
-    position: fixed;
+    /* position: fixed;
     position: absolute;
-    bottom: 15px;
-    left: 20px;
+    bottom: -20rem!important;
+    left: 20px; */
+    margin: 1rem;
+    text-align: center;
 }
 .sec4 {
     color: white !important;
 }
 .socialSmall i {
-    margin-right: 1.5rem;
+    text-align: center;
+    /* margin-right: 1.5rem; */
     font-size: 2rem;
     color: white;
     transition-duration: .1s;
     opacity: .8;
+    margin: 1rem;
 }
 .socialSmall i:hover {
     transition-duration: .2s;

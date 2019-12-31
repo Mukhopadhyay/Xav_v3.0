@@ -325,3 +325,21 @@ h4, h5 {
         font-size: .6rem;
     }
 }
+/*Developers Section*/
+
+.developers {
+    color: white;
+    font-family: 'Avenier Next' !important;
+}
+.developers h5 {
+    margin-bottom: 2rem !important;
+}
+.fa-linkedin-square {
+    color: white;
+    font-size: 2rem;
+    transition-duration: .2s;
+}
+.fa-linkedin-square:hover {
+    transition-duration: .5s;
+    transform: scale(2);
+}

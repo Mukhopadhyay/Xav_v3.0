@@ -2028,7 +2028,6 @@ body {
     margin-top: 5rem;
     background-color: transparent!important;
     width: 98%;
-    height: 140vh;
 }
 
 .wrap {
@@ -2145,7 +2144,6 @@ body {
 
 .ourSponsors {
     font-size: 3rem;
-    margin-top: 3rem;
     margin-bottom: 2rem;
     font-family: 'Dancing Script';
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);

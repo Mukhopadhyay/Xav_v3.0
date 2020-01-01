@@ -332,7 +332,8 @@ h4, h5 {
     font-family: 'Avenier Next' !important;
 }
 .developers h5 {
-    margin-bottom: 2rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem !important;
 }
 .fa-linkedin-square {
     color: white;

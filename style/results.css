@@ -1,12 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i|Dancing+Script|Roboto&display=swap');
+@font-face {
+    font-family: 'Avenier Next';
+    src: url('../font/AvenirNextLTPro-Cn.otf');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
+}
+.ourSponsors {
+    font-family: 'Inspiration' !important;
+}
+
+.carousel-cell h5 {
+    font-family: 'Raleway' !important;
+}
+
 * {
-    font-family: 'Roboto';
+    font-family: 'Raleway';
+}
+
+.sidenav a {
+    font-family: 'Avenier Next';
 }
 
 /*LOGO CSS*/
 
 .logoLink {
     position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
     z-index: 99;
@@ -30,11 +55,10 @@
 body {
     background-color: #0cbaba;
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-/*  */
-/* background-color: #fce055;
+    /*  */
+    /* background-color: #fce055;
 background-image: linear-gradient(319deg, #fce055 0%, #0f3581 37%, #46237a 100%); */
-
-/* background-color: #44b09e;
+    /* background-color: #44b09e;
 background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     background-position: center;
     background-attachment: fixed;
@@ -43,14 +67,42 @@ background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     font-family: 'Roboto';
 }
 
+.resultsButtons button{
+    margin-top: 5rem !important;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    display: none;
+}
+
+.wrapper h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.wrapper h6 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper table {
+    margin-bottom: 2rem;
+}
+
 .result-container {
-    margin-top: 15rem;
+    margin-top: 5rem;
     position: relative;
     top: 50%;
     margin-bottom: 5rem;
     text-align: center;
     animation-name: spaceIn;
     animation-duration: 2s;
+}
+
+.result-container h6 {
+    font-family: 'Dancing Script';
+    font-size: 2rem;
 }
 
 @keyframes spaceIn {
@@ -66,10 +118,67 @@ background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
 }
 
 #loader {
-    margin-top: -15rem;
+    margin-top: -5rem;
 }
 
 h1 {
     font-family: 'Dancing Script';
     font-size: 2rem;
+}
+
+table {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: .7rem;
+}
+
+table tr:nth-child(even) {
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, .1) 0%, #0cbaba 74%);
+}
+
+.customButton {
+    /* color: black; */
+    text-decoration: none;
+    width: 12rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    border-radius: 40px 40px 40px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+    transition: 0.5s;
+    animation-name: spaceIn;
+    animation-duration: 3s;
+    color: black;
+    border-color: #f7f6f6
+}
+
+.customButton:hover {
+    text-decoration: none;
+    border-radius: 0px;
+    letter-spacing: 0.2rem;
+    transform: scale(1.3, 1.3);
+    text-shadow: 0px 0px 0px black;
+    /* color: white; */
+    color: black!important;
+}
+
+.btnEvent {
+    font-size: .7rem;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+}
+
+
+.resultsButtons {
+    margin-top: 5rem !important;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media (min-width: 1280px) {
+    .footer {
+        margin-top: 17rem;
+    }
 }

@@ -33,8 +33,11 @@
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/footer.css">
 
-    <script src="./script/index.js"></script>
+    <!--Animate.css-->
+    <link rel="stylesheet" href="./style/animate.css">
 
+    <script src="./script/index.js"></script>
+    <script src="./script/results.js"></script>
 </head>
 
 <body onload="loaderFunction()">
@@ -80,8 +83,441 @@
     </a>
     <!--End of Logo-->
 
-    <div class="container result-container text-center">
-        <h1>The results will be updated after 24th January, 2020</h1>
+    <div class="resultsButtons text-center">
+        <button type="button" id="interResultButton" class="animated bounce btn btn-outline-light customButton btnEvent text-light">Inter Xtacy Results</button>
+    </div>
+
+    <div class="wrapper">
+        <div class="container result-container text-left">
+            <h3>Inter-Xtacy Results</h3>
+
+            <h6>Dance</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>NACH BALIYE</th>
+                        <th>GHUNGHROO</th>
+                        <th>JAZZ IT UP</th>
+                        <th>NAVRAS</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>DUET DANCE</th>
+                        <th>BOLLYWOOD GROUP DANCE</th>
+                        <th>WESTERN GROUP DANCE</th>
+                        <th>EASTERN SOLO DANCE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amity University</td>
+                        <td>Shri Shikshayatan College</td>
+                        <td>St. Xavier's University</td>
+                        <td>Maulana Azar College</td>
+                    </tr>
+                    <tr>
+                        <td>Scottish Church College</td>
+                        <td>Adamas University</td>
+                        <td>Loreto College</td>
+                        <td>Lady Brabourne College</td>
+                    </tr>
+                    <tr>
+                        <td>NSHM</td>
+                        <td>UEM</td>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td>St. Xavier's College, Burdwan</td>
+                    </tr>
+                    <tr>
+                        <td>Maulana Azad College</td>
+                        <td>Jadavpur University</td>
+                        <td>Techno Main Salt Lake</td>
+                        <td>Gokhale Memorial Girls' College</td>
+                    </tr>
+                    <tr>
+                        <td>Techno Main Salt Lake</td>
+                        <td>Bhawanipur Education Society College</td>
+                        <td>Future Institute Of Engineering and Management</td>
+                        <td>iLead College</td>
+                    </tr>
+                    <tr>
+                        <td>Netaji Subhash Engineering College</td>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td>J.D.B.I Management</td>
+                        <td>The Heritage Colleg</td>
+                    </tr>
+                    <tr>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td></td>
+                        <td></td>
+                        <td>St. Xavier's College, Kolkata</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <h6>Dramatics</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>
+                            LIMELIGHT
+                        </th>
+                        <th>
+                            NUKKAD NATAK
+                        </th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>
+                            STAGE PLAY
+                        </th>
+                        <th>
+                            STREET PLAY
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Scottish Church College</td>
+                    <td>Loreto College</td>
+                </tr>
+                <tr>
+                    <td>Maulana Church College</td>
+                    <td>Heritage Institute of Technology</td>
+                </tr>
+                <tr>
+                    <td>IHM, Kolkata</td>
+                    <td>Amity University</td>
+                </tr>
+                <tr>
+                    <td>Amity University</td>
+                    <td>Techno Main, Salk Lake</td>
+                </tr>
+                <tr>
+                    <td>St. Xavier's College</td>
+                    <td>Shyambazar Law College</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SNU</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>St. Xavier's College</td>
+                </tr>
+            </table>
+
+            <h6>Music</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>
+                            MIXTAPE
+                        </th>
+                        <th>
+                            UNPLUGGED
+                        </th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>
+                            FUSION BAND
+                        </th>
+                        <th>
+                            SOLO VOCALS
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Scottish Church College</td>
+                    <td>Gurudas College</td>
+                </tr>
+                <tr>
+                    <td>The Heritage College</td>
+                    <td>Presidency University</td>
+                </tr>
+                <tr>
+                    <td>Loreto College</td>
+                    <td>St. Xavier's College, Burdwan</td>
+                </tr>
+                <tr>
+                    <td>Amity University</td>
+                    <td>Techno Main Salk Lake</td>
+                </tr>
+                <tr>
+                    <td>St. Xavier's College</td>
+                    <td>The Heritage College</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>iLead</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>SNU</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>St. Xavier's College</td>
+                </tr>
+            </table>
+
+            <h6>Lifestyle</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>
+                            XTRAVAGANZA
+                        </th>
+                        <th>
+                            THEMATIC
+                        </th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>
+                            FASHION SHOW
+                        </th>
+                        <th>
+                            THEME WALK
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>NIFT</td>
+                    <td>NIFT</td>
+                </tr>
+                <tr>
+                    <td>St Xavier's University</td>
+                    <td>SXC Burdwan</td>
+                </tr>
+                <tr>
+                    <td>Shri Shikshayatan College</td>
+                    <td>iLead</td>
+                </tr>
+                <tr>
+                    <td>THK Jain College</td>
+                    <td>Shri Shikshayatan College</td>
+                </tr>
+                <tr>
+                    <td>Maulana Azad College</td>
+                    <td>SXC Raghabpur</td>
+                </tr>
+                <tr>
+                    <td>St. Xavier's College</td>
+                    <td>St. Xavier's College</td>
+                </tr>
+            </table>
+
+            <h6>Journalism</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>
+                            JOURNAL
+                        </th>
+                        <th>
+                            XLOG
+                        </th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>
+                            PRINT MEDIA REPORT
+                        </th>
+                        <th>
+                            DIGITAL MEDIA REPORT
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Amity University</td>
+                    <td>Loreto College</td>
+                </tr>
+                <tr>
+                    <td>NSHM Knowledge Campus</td>
+                    <td>The Heritage College</td>
+                </tr>
+                <tr>
+                    <td>JDBI Management</td>
+                    <td>JDBI Management</td>
+                </tr>
+                <tr>
+                    <td>Shri Shikshayatan College</td>
+                    <td>St. Xavier's College</td>
+                </tr>
+                <tr>
+                    <td>St. Xavier's College</td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h6>Speaking Arts</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>
+                            X-VERSE
+                        </th>
+                        <th>
+                            WAR OF WORDS
+                        </th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>
+                            POETRY SLAM (EH)
+                        </th>
+                        <th>
+                            ENGLISH DEBATE
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>JDBI Management</td>
+                    <td>Akash Chowdhury, JU (For TM)</td>
+                </tr>
+                <tr>
+                    <td>Adamas University</td>
+                    <td>Shirsha Banerjee, Amity University (Against TM)</td>
+                </tr>
+                <tr>
+                    <td>Shivnath Shastri College</td>
+                    <td>Dipanjan Dey, CU (For TM)</td>
+                </tr>
+                <tr>
+                    <td>Techno Main, Salt Lake</td>
+                    <td>Mekhla Chakraborty, Amity University (Against TM)</td>
+                </tr>
+                <tr>
+                    <td>NSHM Knowledge Campus</td>
+                    <td>Shaheera Shahid, Lady Brabourne College (For TM)</td>
+                </tr>
+                <tr>
+                    <td>Scottish Church College</td>
+                    <td>Aniruddh Banerjee, NSHM (Against TM)</td>
+                </tr>
+                <tr>
+                    <td>Loreto College</td>
+                    <td>Tuhin Sur,Maulana Azad College (For TM)</td>
+                </tr>
+                <tr>
+                    <td>St Xavier's College</td>
+                    <td>Swapnil Dutta, IHM (Against TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Kanika Khaitan, Loreto College (For TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Simran Jha, CNMC (Against TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Dhriti Roy Chowdhury, Lady Brabourne College (For TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Saloni Chhaparia, SXU (Against TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Esha Bothra, JDBI Management (For TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ananda Laha, JU (Against TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Srijan Banerjee, Asutosh College (For TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Aditya Aryan, CU Dept. of Law (Against TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Adwait Arnav Mitra, CU Dept of Law (For TM)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mrinalini Majumder, BESC (Against TM)</td>
+                </tr>
+            </table>
+
+            <h6>Dance</h6>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>NACH BALIYE</th>
+                        <th>GHUNGHROO</th>
+                        <th>JAZZ IT UP</th>
+                        <th>NAVRAS</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>DUET DANCE</th>
+                        <th>BOLLYWOOD GROUP DANCE</th>
+                        <th>WESTERN GROUP DANCE</th>
+                        <th>EASTERN SOLO DANCE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amity University</td>
+                        <td>Shri Shikshayatan College</td>
+                        <td>St. Xavier's University</td>
+                        <td>Maulana Azar College</td>
+                    </tr>
+                    <tr>
+                        <td>Scottish Church College</td>
+                        <td>Adamas University</td>
+                        <td>Loreto College</td>
+                        <td>Lady Brabourne College</td>
+                    </tr>
+                    <tr>
+                        <td>NSHM</td>
+                        <td>UEM</td>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td>St. Xavier's College, Burdwan</td>
+                    </tr>
+                    <tr>
+                        <td>Maulana Azad College</td>
+                        <td>Jadavpur University</td>
+                        <td>Techno Main Salt Lake</td>
+                        <td>Gokhale Memorial Girls' College</td>
+                    </tr>
+                    <tr>
+                        <td>Techno Main Salt Lake</td>
+                        <td>Bhawanipur Education Society College</td>
+                        <td>Future Institute Of Engineering and Management</td>
+                        <td>iLead College</td>
+                    </tr>
+                    <tr>
+                        <td>Netaji Subhash Engineering College</td>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td>J.D.B.I Management</td>
+                        <td>The Heritage Colleg</td>
+                    </tr>
+                    <tr>
+                        <td>St. Xavier's College, Kolkata</td>
+                        <td></td>
+                        <td></td>
+                        <td>St. Xavier's College, Kolkata</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
     </div>
 
     <footer class="footer">
@@ -114,7 +550,7 @@
                 </div>
             </div>
         </div>
-    </foooter>
+        </foooter>
 
 </body>
 

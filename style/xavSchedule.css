@@ -350,3 +350,7 @@ table, th, td {
     text-align: center;
     color: white;
 }
+
+.resultsButtons {
+    margin-top: 5rem !important;
+}

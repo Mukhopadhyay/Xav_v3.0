@@ -3,14 +3,17 @@
     font-family: 'Avenier Next';
     src: url('../font/AvenirNextLTPro-Cn.otf');
 }
+
 @font-face {
     font-family: 'Raleway';
     src: url('../font/Raleway-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Inspiration';
     src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
 }
+
 .ourSponsors {
     font-family: 'Inspiration' !important;
 }
@@ -67,7 +70,7 @@ background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     font-family: 'Roboto';
 }
 
-.resultsButtons button{
+.resultsButtons button {
     margin-top: 5rem !important;
     margin-bottom: 2rem;
 }
@@ -167,7 +170,6 @@ table tr:nth-child(even) {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
 }
 
-
 .resultsButtons {
     margin-top: 5rem !important;
 }
@@ -176,9 +178,29 @@ table tr:nth-child(even) {
     display: none;
 }
 
-
 @media (min-width: 1280px) {
     .footer {
         margin-top: 17rem;
     }
+}
+
+/*up button*/
+
+.btn-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #f85032, #e73827);
+    transition-duration: .2s;
+    color: white;
+    animation-name: bounceInUp;
+}
+
+.btn-up:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    transition-duration: .4s;
+    color: black;
 }

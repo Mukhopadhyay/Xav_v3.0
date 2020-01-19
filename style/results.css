@@ -14,6 +14,10 @@
     src: url('../font/WalkingStonesPersonalUse-3npX.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .ourSponsors {
     font-family: 'Inspiration' !important;
 }
@@ -70,12 +74,19 @@ background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%); */
     font-family: 'Roboto';
 }
 
+.resultsButtons {
+    margin-bottom: 3rem;
+}
+
 .resultsButtons button {
-    margin-top: 5rem !important;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .wrapper {
+    display: none;
+}
+.wrapperIntra {
     display: none;
 }
 
@@ -203,4 +214,18 @@ table tr:nth-child(even) {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
     transition-duration: .4s;
     color: black;
+}
+
+.result-container h6 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.result-container ol {
+    text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+    .result-container li {
+        font-size: .8rem;
+    }
 }
